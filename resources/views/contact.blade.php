@@ -133,7 +133,7 @@
       </div>
       <div class="col-md-6 mt-5 mb-5 formbg pb-5">
         <div class="container">
-          <form action="">
+          <form id="contactus" action="">
             @csrf
             <p class="text-center formhead">We are here to help you</p>
             <input class="fname" type="text" placeholder="Full name" /><br />
@@ -313,7 +313,8 @@
       <div class="col-md-4 wfoot">Powered by roots and stalks digital</div>
     </div>
   </div>
-  <script src="main.js" async defer></script>
+  <script src="js/main.js" async defer></script>
+  <script src="{{url('js/contactus.js')}}" async defer></script>
 </body>
 
 </html>
