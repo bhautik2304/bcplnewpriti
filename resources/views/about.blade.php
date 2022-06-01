@@ -1332,7 +1332,7 @@
 <div class="container-fluid mvsection">
   <div class="container pt-5 pb-5">
     <div class="row">
-      <div class="col-md-6"><img src="pictures/v1.png" class="img-mi" alt=""></div>
+      <div class="col-md-6"><img src="{{url('pictures/about/mission.jpg')}}" class="img-mi" alt=""></div>
       <div class="col-md-6 pe-5 pt-2">
         <h1>Mission</h1>
         <p>Becoming India’s Leading Distribution House for Lifestyle & Fashion Accessories.
@@ -1361,7 +1361,7 @@
           into a new story in Beauty, Fragrances, Fashion and Lifestyle accessories.
         </p>
       </div>
-      <div class="col-md-6"><img src="pictures/m1.png" class="img-vi" alt=""></div>
+      <div class="col-md-6"><img src="{{url('pictures/about/vision.jpg')}}" class="img-vi" alt=""></div>
     </div>
   </div>
 </div>

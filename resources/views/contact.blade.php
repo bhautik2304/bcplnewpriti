@@ -101,7 +101,7 @@
       <div class="col-md-6 pt-5">
         <div id="map">
           <div class=" mt-3">
-            <img src="/pictures/Group-map-1.png" width="100%" alt="Map">
+            <img src="/pictures/map_bcpl_new.png" width="100%" alt="Map">
           </div>
           <div id="dots">
             <div class="dot dot-1"></div>

@@ -1756,11 +1756,13 @@ input[type=checkbox] {
 
 
 .mvsection .img-mi {
-    width: 85%;
+    height: 100%;
+    width: 100%;
 }
 
 .mvsection .img-vi {
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -2338,7 +2340,7 @@ input[type=checkbox] {
     top: 38%;
     left: 24%;
 
-    background: #FF6347;
+    background: #346FB5;
 }
 
 .dot-4 {
@@ -2359,28 +2361,28 @@ input[type=checkbox] {
     top: 50%;
     left: 28%;
 
-    background: #1E90FF;
+    background: #d7b56d;
 }
 
 .dot-7 {
     top: 42%;
     left: 36%;
 
-    background: #FF6347;
+    background: #346FB5;
 }
 
 .dot-8 {
     top: 79%;
     left: 37%;
 
-    background: #D2691E;
+    background: #86C391;
 }
 
 .dot-9 {
     top: 20.5%;
     left: 36%;
 
-    background: #1E90FF;
+    background: #d7b56d;
 }
 
 .dot-10 {
@@ -2401,7 +2403,7 @@ input[type=checkbox] {
     top: 45.5%;
     left: 48%;
 
-    background: #FF6347;
+    background: #346FB5;
 }
 
 .dot-13 {
@@ -2449,7 +2451,7 @@ input[type=checkbox] {
 .dot-19 {
     top: 39%;
     left: 69.5%;
-    background: #D2691E;
+    background: #86C391;
 
 }
 

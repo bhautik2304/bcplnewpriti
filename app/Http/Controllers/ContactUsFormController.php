@@ -18,7 +18,10 @@ class ContactUsFormController extends Controller {
             'subject'=>'required',
          ]);
         //  Store data in database
+        $type=
         Contact::create($request->all());
+
+
         //  Send mail to admin
         Mail::send('mail', array(
             'name' => $request->get('name'),
