@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\contactus;
 use App\Http\Controllers\storelocator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -20,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/store',[storelocator::class,'index']);
+Route::post('/contactus',[contactus::class,'index']);

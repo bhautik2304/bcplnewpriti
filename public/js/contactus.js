@@ -1,4 +1,10 @@
-$('#contactus').submit(function (e) {
+$('#formSubmit').submit(function (e) {
     e.preventDefault();
-    alert('hello')
+
+   const name= $('#FullName').val();
+   const email= $('#email').val();
+   const mobail= $('#mobail').val();
+   const subject= $('#subject').val();
+   const msg= $('#msg').val();
+
 });

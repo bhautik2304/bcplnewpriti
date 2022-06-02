@@ -10,6 +10,7 @@ const store = () => {
 };
 
 const storeCity=()=> {
+    var hotname=$(location).attr('protocol');
     const StoreValue = $("#store").val();
     const CityValue = $("#storeCity").val();
     if(CityValue==0){
@@ -23,7 +24,7 @@ const storeCity=()=> {
         city: CityValue,
     };
     $.ajax({
-        url: "http://localhost:8000/api/store/",
+        url: hotname+"api/store/",
         type: "get",
         data: data,
         success: function (res) {

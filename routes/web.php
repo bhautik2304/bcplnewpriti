@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactUsFormController;
 use App\Http\Controllers\PageController;
+use App\Mail\contactus;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,14 @@ Route::get('/', [PageController::class, 'Index'])->name('Index');
 Route::get('/Maisondeperfums', [PageController::class, 'Maisondeperfums'])->name('Maisondeperfums');
 Route::get('/Retail', [PageController::class, 'Retail'])->name('Retail');
 Route::get('/Storelocator', [PageController::class, 'Storelocator'])->name('Storelocator');
+
+Route::get('/mailable', function () {
+    $data=[
+        "department_user_name"=>"Paras",
+        "name"=>"bhautik",
+        "Contact"=>"6358006532",
+        "email"=>"abcd@gmail.com",
+        "msg"=>"abara ka dabara"
+    ];
+    return new contactus($data);
+});
