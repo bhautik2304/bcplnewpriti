@@ -22,7 +22,6 @@ class contactus extends Controller
        $subject= $contact->subject=$req->subject;
        $msg= $contact->message=$req->message;
         $contact->save();
-
         switch ($subject) {
             case "Retail Partnership":
                 $departmentUseremail="paras@roots-and-stalks.com";
@@ -48,21 +47,23 @@ class contactus extends Controller
                 $departmentUseremail="tifamtifins@gmail.com";
                 $departmentUsername="Gargi";
               break;
-            case "Others":
+            default:
                 $departmentUseremail="tifamtifins@gmail.com";
                 $departmentUsername="Nehal";
              break;
-          }
-        $data=[
-            "department_user_name"=>$departmentUsername,
-            "name"=>$name,
-            "email"=>$email,
-            "mobail"=>$mobail,
-            "subject"=>$subject,
-            "msg"=>$msg
-        ];
 
-       $job= dispatch(new contactusjob($data,$departmentUseremail));
+          }
+          $data=[
+              "department_user_name"=>$departmentUsername,
+              "name"=>$name,
+              "email"=>$email,
+              "mobail"=>$mobail,
+              "subject"=>$subject,
+              "msg"=>$msg
+            ];
+
+            $job= dispatch(new contactusjob($data,$departmentUseremail));
+            dd($data);
        if(isset($job)){
            return response(["msg"=>"Thank You for Conencting".$name." us. We Contact As Soon Possibel"]);
        }

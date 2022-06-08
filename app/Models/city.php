@@ -9,5 +9,10 @@ class city extends Model
 {
     use HasFactory;
 
-    // protected $tabel='cities';
+    public function scopeStorCity($query,$store)
+{
+    return $query->where('store_id', '=', $store);
+}
+
+
 }

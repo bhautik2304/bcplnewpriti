@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactUsFormController;
 use App\Http\Controllers\PageController;
 use App\Mail\contactus;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,9 +35,11 @@ Route::get('/mailable', function () {
     $data=[
         "department_user_name"=>"Paras",
         "name"=>"bhautik",
-        "Contact"=>"6358006532",
+        "mobail"=>"6358006532",
         "email"=>"abcd@gmail.com",
-        "msg"=>"abara ka dabara"
+        "msg"=>"abara ka dabara",
+        "subject"=>"other"
     ];
-    return new contactus($data);
+    Mail::to('dndtecnosol@gmail.com')->send(new contactus($data));
+    return "i all sended";
 });
