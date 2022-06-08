@@ -15,6 +15,7 @@ class MapController extends Controller
     public function index()
     {
         //
+        return response(["res"=>map::all()],200);
     }
 
     /**
@@ -33,9 +34,16 @@ class MapController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $req)
     {
         //
+        $map=new map;
+        $map->store_id=$req->storeid;
+        $map->city_id =$req->cityid;
+        $map->ifram=$req->ifram;
+        $map->save();
+
+        return response(["msg"=>"successfull created "],200);
     }
 
     /**
@@ -67,9 +75,16 @@ class MapController extends Controller
      * @param  \App\Models\map  $map
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, map $map)
+    public function update(Request $req, map $map)
     {
         //
+        $map=map::where('id',$req->id)->update($req->all())->getAll();
+
+        return response([
+            "res"=>"updated",
+            "city"=>$map
+        ],200
+        );
     }
 
     /**
@@ -81,5 +96,7 @@ class MapController extends Controller
     public function destroy(map $map)
     {
         //
+        $map->delete();
+        return response(["res"=>"Succesufully deleted"],200);
     }
 }

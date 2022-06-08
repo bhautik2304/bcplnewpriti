@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\contactus;
+use App\Http\Controllers\{contactus,StoreController,CityController,MapController,StoreaddressController};
 use App\Http\Controllers\storelocator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -20,6 +20,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/store',[storelocator::class,'index']);
+Route::post('/store',[storelocator::class,'index']);
 Route::post('/contactus',[contactus::class,'index']);
 Route::post('/city',[storelocator::class,'storeCity']);
+
+                    //--- crud oparations routs --- //
+Route::resource('stores', StoreController::class);
+Route::resource('citys', CityController::class);
+Route::resource('maps', MapController::class);
+Route::resource('address', StoreaddressController::class);

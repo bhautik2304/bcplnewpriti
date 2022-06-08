@@ -18,9 +18,9 @@ class contactus extends Controller
         $contact=new Contact;
        $name= $contact->name=$req->name;
        $email= $contact->email=$req->email;
-       $mobail= $contact->phone=$req->phone;
+       $mobail= $contact->phone=$req->mobail;
        $subject= $contact->subject=$req->subject;
-       $msg= $contact->message=$req->message;
+       $msg= $contact->message=$req->msg;
         $contact->save();
         switch ($subject) {
             case "Retail Partnership":
@@ -64,9 +64,9 @@ class contactus extends Controller
 
             $job= dispatch(new contactusjob($data,$departmentUseremail));
             dd($data);
-       if(isset($job)){
-           return response(["msg"=>"Thank You for Conencting".$name." us. We Contact As Soon Possibel"]);
-       }
+            return response(["msg"=>"Thank You for Conencting".$name." us. We Contact As Soon Possibel"]);
+    //    if(isset($job)){
+    //    }
     }
 
 }
