@@ -1,8 +1,8 @@
 const store = () => {
     var hostname=$(location).attr('protocol');
     const StoreValue = $("#store").val();
+    $(".appendcity").empty();
      $(".store").empty();
-     $(".iframe").empty();
      var data = {
         store:StoreValue
     };
@@ -12,14 +12,14 @@ const store = () => {
         data: data,
         success: function (res) {
             $(".store").empty();
-            $(".iframe").empty();
             if(res.length==0){
                 $(".store").append("<h1><center>we are coming soon</center></h1>");
                 return null
             }
-            console.log(res)
+            $(".store").append("<h1><center>pls select Your city</center></h1>");
+            var html2 = "<option selected value='0' >City</option>"
+            $(".appendcity").append(html2);
             for (var i = 0; i < res.city.length; i++) {
-                console.log(res.city[i].id)
                 var html =  "<option value="+res.city[i].id+" >"+res.city[i].name+"</option>"
                 $(".appendcity").append(html);
             }
@@ -43,16 +43,18 @@ const storeCity=()=> {
     };
     $.ajax({
         url: hostname+"api/store/",
-        type: "get",
+        type: "post",
         data: data,
         success: function (res) {
             $(".store").empty();
             $(".iframe").empty();
             if(res.store.length==0){
                 $(".store").append("<h1><center>we are coming soon</center></h1>");
+                $(".iframes").show();
                 return null
             }
             const ifram=res.ifram[0].ifram
+            $(".iframes").hide();
             for (var i = 0; i < res.store.length; i++) {
                 var html =
                     '<p class="storehead">' +
