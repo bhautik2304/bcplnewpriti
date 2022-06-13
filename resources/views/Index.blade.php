@@ -56,7 +56,7 @@
 
           <!-- The HTML5 video element that will create the background video on the header -->
           <video playsinline="playsinline" id="myVideo" autoplay muted preload="yes"  loop="loop"  class="video-js" data-setup='{"autoplay":"any"}'>
-            <source src="video/CR_MOON.mp4" type="video/mp4" />
+            <source src="video/Bvlgari Rose Goldea Blossom Delight EDT.mp4" type="video/mp4" />
           </video>
 
           <!-- The header content -->
@@ -133,25 +133,25 @@
     <div class="owl-carousel owl-theme slidercard2 pb-2">
 
       <div class="item ">
-       <img src="/pictures/Luxury/Logo/Bvlgari.png" alt="">
+       <img src="/pictures/index-logo/Bvlgari.jpg" alt="">
       </div>
       <div class="item ">
-        <img src="/pictures/Luxury/Logo/Chopard.png" alt="">
+        <img src="/pictures/index-logo/Chopard.jpg" alt="">
        </div>
        <div class="item ">
-        <img src="/pictures/Luxury/Logo/Ermenegildo-Zegna.png" alt="">
+        <img src="/pictures/index-logo/Ermenegildo-Zegna.jpg" alt="">
        </div>
        <div class="item ">
-        <img src="/pictures/Luxury/Logo/Guerlain.png" alt="">
+        <img src="/pictures/index-logo/Guerlain.jpg" alt="">
        </div>
        <div class="item ">
-        <img src="/pictures/Luxury/Logo/Hermes.png" alt="">
+        <img src="/pictures/index-logo/Hermes.jpg" alt="">
        </div>
        <div class="item ">
-        <img src="/pictures/Luxury/Logo/Lalique.png" alt="">
+        <img src="/pictures/index-logo/lalique.jpg" alt="">
        </div>
        <div class="item ">
-        <img src="/pictures/Luxury/Logo/Salvatore-Ferragamo.png" alt="">
+        <img src="/pictures/index-logo/SF.jpg" alt="">
        </div>
 
     </div>
@@ -450,10 +450,10 @@
       <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
         <div class="card text-white segmentimg">
           <figure>
-            <img src="pictures/luggage.png" class="card-img" alt="..." />
+            <img src="pictures/home.png" class="card-img" alt="..." />
           </figure>
           <div class="card-img-overlay">
-            <p class="card-text segmenttext">Luggages</p>
+            <p class="card-text segmenttext">Home fragrance</p>
           </div>
         </div>
       </div>
@@ -507,11 +507,11 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                      <a href="{{route('about')}}" class="fbrands">
-                        <li>Mission</li>
+                    <a href="{{route('about')}}" class="fbrands">
+                        <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>vision</li>
+                        <li>Mission</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
                         <li>CSR</li>
@@ -733,6 +733,7 @@
   <!-- ------------------------------------------- -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
   <script src="jquery.counterup.min.js"></script>
+  <script src="js/main.js"></script>
 
 
 </body>

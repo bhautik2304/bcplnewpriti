@@ -15,6 +15,7 @@ class StoreController extends Controller
     public function index()
     {
         //
+        return response(["res"=>store::all()],200);
     }
 
     /**
@@ -33,9 +34,13 @@ class StoreController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $req)
     {
         //
+        $stor=new store;
+        $stor->name=$req->name;
+        $stor->save();
+
     }
 
     /**
@@ -67,9 +72,16 @@ class StoreController extends Controller
      * @param  \App\Models\store  $store
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, store $store)
+    public function update(Request $req, store $store)
     {
         //
+        $store=store::where('id',$req->id)->update($req->all())->getAll();
+
+        return response([
+            "res"=>"updated",
+            "banner"=>$store
+        ],200
+        );
     }
 
     /**
@@ -81,5 +93,7 @@ class StoreController extends Controller
     public function destroy(store $store)
     {
         //
+        $store->delete();
+        return response(["res"=>"Succesufully deleted"],200);
     }
 }

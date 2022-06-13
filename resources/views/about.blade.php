@@ -1313,7 +1313,7 @@
 <div class="container mt-5 mb-5">
   <p class="credentialshead pb-3">Credentials</p>
   <ul>
-    <li>A brand portfolio of over 40 leading international brands.</li><br>
+    <li>A brand portfolio of over 100 + leading international brands.</li><br>
     <li>An established player in the lifestyle accessories segment with fragrances, cosmetics, beauty products &
       luggage </li><br>
     <li>Preferred partner with all the leading large format departmental stores
@@ -1324,16 +1324,30 @@
       model of logistics.</li><br>
     <li>A Management team well versed with the distribution & retail business with over 100 years of cumulative
       experience </li><br>
-    <li>Team strength of over 3500 personnel.</li><br>
+    <li>Team strength of over 800+ employees.</li><br>
   </ul>
 </div>
 
 
 <div class="container-fluid mvsection">
   <div class="container pt-5 pb-5">
-    <div class="row">
+    <div class="row ">
+      <div class="col-md-6  pe-5 pt-2">
+        <h1>Vision</h1>
+        <p>Enhancing Innovation and Creativity.
+          <br><br>
+          BCPL aims to upload the spirit of innovation – not just in terms of product, but also in retail methods and
+          experience creation.
+          <br><br>
+          With our unfettered passion, innovation and impactful marketing in the lifestyle space, we aim to lead India
+          into a new story in Beauty, Fragrances, Fashion and Lifestyle accessories.
+        </p>
+      </div>
+      <div class="col-md-6"><img src="{{url('pictures/about/vision.jpg')}}" class="img-vi" alt=""></div>
+    </div>
+    <div class="row mt-5">
       <div class="col-md-6"><img src="{{url('pictures/about/mission.jpg')}}" class="img-mi" alt=""></div>
-      <div class="col-md-6 pe-5 pt-2">
+      <div class="col-md-6 ">
         <h1>Mission</h1>
         <p>Becoming India’s Leading Distribution House for Lifestyle & Fashion Accessories.
           <br><br>
@@ -1349,19 +1363,14 @@
         </p>
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h1>Vision</h1>
-        <p>Enhancing Innovation and Creativity.
-          <br><br>
-          BCPL aims to upload the spirit of innovation – not just in terms of product, but also in retail methods and
-          experience creation.
-          <br><br>
-          With our unfettered passion, innovation and impactful marketing in the lifestyle space, we aim to lead India
-          into a new story in Beauty, Fragrances, Fashion and Lifestyle accessories.
+    <div class="row mt-5 ">
+      <div class="col-md-6  pe-5 pt-2">
+        <h1>CSR</h1>
+        <p>
+          We are Associated with “World Vision India”, an NGO that sponsors child education. Children from the organisation can be later given employment in Beauty Concepts.
         </p>
       </div>
-      <div class="col-md-6"><img src="{{url('pictures/about/vision.jpg')}}" class="img-vi" alt=""></div>
+      <div class="col-md-6"><img src="{{url('pictures/about/hands-reaching-out-help.jpg')}}" class="img-vi" alt=""></div>
     </div>
   </div>
 </div>
@@ -1481,11 +1490,11 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                      <a href="{{route('about')}}" class="fbrands">
-                        <li>Mission</li>
+                    <a href="{{route('about')}}" class="fbrands">
+                        <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>vision</li>
+                        <li>Mission</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
                         <li>CSR</li>

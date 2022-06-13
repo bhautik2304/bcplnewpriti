@@ -15,6 +15,7 @@ class CityController extends Controller
     public function index()
     {
         //
+        return response(["res"=>city::all()],200);
     }
 
     /**
@@ -33,9 +34,15 @@ class CityController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $req)
     {
         //
+        $city=new city;
+        $city->store_id=$req->storeId;
+        $cityname= $city->name=$req->name;
+        $city->save();
+
+        return response(["msg"=>"successfull created ".$cityname.""],200);
     }
 
     /**
@@ -67,9 +74,16 @@ class CityController extends Controller
      * @param  \App\Models\city  $city
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, city $city)
+    public function update(Request $req, city $city)
     {
         //
+        $city=city::where('id',$req->id)->update($req->all())->getAll();
+
+        return response([
+            "res"=>"updated",
+            "city"=>$city
+        ],200
+        );
     }
 
     /**
@@ -81,5 +95,7 @@ class CityController extends Controller
     public function destroy(city $city)
     {
         //
+        $city->delete();
+        return response(["res"=>"Succesufully deleted"],200);
     }
 }

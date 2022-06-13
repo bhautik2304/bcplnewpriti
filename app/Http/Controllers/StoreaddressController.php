@@ -15,6 +15,7 @@ class StoreaddressController extends Controller
     public function index()
     {
         //
+        return response(["res"=>storeaddress::all()],200);
     }
 
     /**
@@ -33,9 +34,21 @@ class StoreaddressController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $req)
     {
         //
+        $addres= new storeaddress;
+        $addres->store_id=$req->storeid;
+        $addres->city_id =$req->cityid;
+        $storename= $addres->storename=$req->storename;
+        $addres->storeaddress=$req->storeaddress;
+        $addres->pincode=$req->pincode;
+        $addres->email=$req->email;
+        $addres->no=$req->no;
+        $addres->save();
+
+        return response(["msg"=>"successfull created ".$storename."address"]);
+
     }
 
     /**
@@ -67,7 +80,7 @@ class StoreaddressController extends Controller
      * @param  \App\Models\storeaddress  $storeaddress
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, storeaddress $storeaddress)
+    public function update(Request $req, storeaddress $storeaddress)
     {
         //
     }
@@ -81,5 +94,7 @@ class StoreaddressController extends Controller
     public function destroy(storeaddress $storeaddress)
     {
         //
+        $storeaddress->delete();
+        return response(["msg"=>"successfully delated"],200);
     }
 }

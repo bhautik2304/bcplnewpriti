@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\{storeaddress,map};
+use App\Models\{storeaddress,map,city};
 class storelocator extends Controller
 {
     //
@@ -11,12 +11,17 @@ class storelocator extends Controller
        $store= storeaddress::store($req->store)->city($req->city)->get();
        $ifram= map::IframStore($req->store)->IframCity($req->city)->get();
 
-    //    $data=[
-    //        "store"=>$store
-    //    ];
         return response([
             "store"=>$store,
             "ifram"=>$ifram
         ],200);
     }
+
+    public function storeCity(Request $req){
+       $city= city::StorCity($req->store)->get();
+
+       return response(["city"=>$city],200);
+    }
+
+
 }

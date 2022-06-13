@@ -22,8 +22,12 @@ header video {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: auto;
-    height: auto;
+    /* right: 0;
+    bottom: 0; */
+    min-width: 100%;
+    min-height: 100%;
+    /* width: auto;
+    height: auto; */
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -2015,7 +2019,7 @@ input[type=checkbox] {
     font-family: montserrat, sans-serif !important;
     font-size: 70px;
     margin: 50px 0;
-    color: #F9698C;
+    color: #1A60BB;
 }
 
 .retaildata {

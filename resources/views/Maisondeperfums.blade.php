@@ -112,7 +112,7 @@
         service and attention to details to engage each & every customer.
         The flagship Maison des Parfums boutique was inaugurated in Select
         Citywalk Mall, New Delhi closely followed by the second presence at
-        Palladium Mall, Mumbai.<br /><br />
+        Palladium Mall, Mumbai. Our third store which is in Jio World Drive Mall, Mumbai.<br /><br />
         Maison des Parfums has curated a wide range of exclusive artisanal
         fragrances that reflect top quality with creative excellence
         including those of Memo, Amouage, NASOMATTO, Juliette has a gun,
@@ -173,11 +173,11 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                      <a href="{{route('about')}}" class="fbrands">
-                        <li>Mission</li>
+                    <a href="{{route('about')}}" class="fbrands">
+                        <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>vision</li>
+                        <li>Mission</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
                         <li>CSR</li>

@@ -29,6 +29,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="text/javascript" src="js/main.js"></script>
       <link rel="stylesheet" href="css/style.css">
+
+      {{-- jquery cdn link --}}
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -101,7 +105,7 @@
       <div class="col-md-6 pt-5">
         <div id="map">
           <div class=" mt-3">
-            <img src="/pictures/map_bcpl_new.png" width="100%" alt="Map">
+            <img src="/pictures/map-bcpl.png" width="100%" alt="Map">
           </div>
           <div id="dots">
             <div class="dot dot-1"></div>
@@ -133,30 +137,30 @@
       </div>
       <div class="col-md-6 mt-5 mb-5 formbg pb-5">
         <div class="container">
-          <form id="contactus" action="">
+    <form method="POST" id="formSubmit">
             @csrf
             <p class="text-center formhead">We are here to help you</p>
-            <input class="fname" type="text" placeholder="Full name" /><br />
+            <input class="fname" type="text" id="FullName" placeholder="Full name" /><br />
             <!-- Error -->
             @if ($errors->has('name'))
             <div class="error">
                 {{ $errors->first('name') }}
             </div>
             @endif
-            <input class="feemail" type="email" placeholder="E-Mail Address" />
+            <input class="feemail" id="email" type="email" placeholder="E-Mail Address" />
             @if ($errors->has('email'))
         <div class="error">
             {{ $errors->first('email') }}
         </div>
         @endif<br />
 
-            <input class="fnumber" type="number" placeholder="Contact details" />
+            <input class="fnumber" id="mobail" type="number" placeholder="Contact details" />
             @if ($errors->has('phone'))
         <div class="error">
             {{ $errors->first('phone') }}
         </div>
         @endif<br />
-            <select value="Select Subject" class="selectsubject">
+            <select id="subject"  value="Select Subject" class="selectsubject">
             @if ($errors->has('subject'))
         <div class="error">
             {{ $errors->first('subject') }}
@@ -170,15 +174,15 @@
               <option value="Feedback">Feedback</option>
               <option value="Others">Others</option>
             </select><br />
-            <input class="fmessage mb-5" type="text" placeholder="Your message" />
+            <input class="fmessage mb-5" id="msg" type="text" placeholder="Your message" />
             @if ($errors->has('message'))
         <div class="error">
             {{ $errors->first('message') }}
         </div>
         @endif<br />
-            <input class="fsubmit" type="submit" value="Talk to us" /><br />
-          </form>
+            <button class="fsubmit" type="submit">Talk to us</button><br />
         </div>
+    </form>
 
       </div>
     </div>
@@ -207,11 +211,11 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                      <a href="{{route('about')}}" class="fbrands">
-                        <li>Mission</li>
+                    <a href="{{route('about')}}" class="fbrands">
+                        <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>vision</li>
+                        <li>Mission</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
                         <li>CSR</li>

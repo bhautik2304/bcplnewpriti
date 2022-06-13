@@ -1270,11 +1270,11 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                      <a href="{{route('about')}}" class="fbrands">
-                        <li>Mission</li>
+                    <a href="{{route('about')}}" class="fbrands">
+                        <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>vision</li>
+                        <li>Mission</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
                         <li>CSR</li>

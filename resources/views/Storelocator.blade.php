@@ -123,14 +123,14 @@
                     </div>
                     <div class="st">
                         <label class="storelabel-2">
-                        <select onchange="storeCity()" id="storeCity" class="form-select form-store" aria-label="Default select example">
-                               <option selected value="0">City</option>
+                        <select onchange="storeCity()" id="storeCity" class="form-select form-store appendcity" aria-label="Default select example">
+                               <option selected value="0" >City</option>
 
 
                                 <!---   city data   --->
-                                @foreach ($storecity as $city)
+                                {{-- @foreach ($storecity as $city)
                                     <option value="{{ $city->id }}">{{ $city->name }}</option>
-                                @endforeach
+                                @endforeach --}}
                                 <!---   city data   --->
 
 
@@ -151,9 +151,14 @@
 
             <!-------------map ifram--------------->
             <div class="col-lg-6">
-              <div class="iframe"></div>
+                <div class="iframes">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.3748146587704!2d77.21678531409329!3d28.528451695536855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce18b191c94cd%3A0x85c0f34afdd33a5f!2sMaison%20des%20Parfums!5e0!3m2!1sen!2sin!4v1654511375707!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+              <div class="iframe">
+
+              </div>
             </div>
-            
+
 
             <!-------------map ifram--------------->
 
@@ -183,11 +188,12 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
+                     
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>Mission</li>
+                        <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>vision</li>
+                        <li>Mission</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
                         <li>CSR</li>

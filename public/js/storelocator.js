@@ -1,18 +1,40 @@
 const store = () => {
+    var hostname=$(location).attr('protocol');
     const StoreValue = $("#store").val();
+    $(".appendcity").empty();
      $(".store").empty();
-     $(".iframe").empty();
-     if(StoreValue==0){
-        $(".store").append("<h1><center>Pls Select Your stor</center></h1>")
-        return null
-    }
-     $(".store").append("<h1><center>Pls Select Your City</center></h1>")
+     var data = {
+        store:StoreValue
+    };
+     $.ajax({
+        url: hostname+"api/city",
+        type: "post",
+        data: data,
+        success: function (res) {
+            $(".store").empty();
+            if(res.length==0){
+                $(".store").append("<h1><center>we are coming soon</center></h1>");
+                return null
+            }
+            $(".store").append("<h1><center>pls select Your city</center></h1>");
+            var html2 = "<option selected value='0' >City</option>"
+            $(".appendcity").append(html2);
+            for (var i = 0; i < res.city.length; i++) {
+                var html =  "<option value="+res.city[i].id+" >"+res.city[i].name+"</option>"
+                $(".appendcity").append(html);
+            }
+        },
+    });
 };
 
 
 
 const storeCity=()=> {
+
     var hotname=$(location).attr('protocol');
+
+    var hostname=$(location).attr('protocol');
+
     const StoreValue = $("#store").val();
     const CityValue = $("#storeCity").val();
     if(CityValue==0){
@@ -26,17 +48,24 @@ const storeCity=()=> {
         city: CityValue,
     };
     $.ajax({
+
         url: hotname+"api/store/",
         type: "get",
+
+        url: hostname+"api/store/",
+        type: "post",
+
         data: data,
         success: function (res) {
             $(".store").empty();
             $(".iframe").empty();
             if(res.store.length==0){
                 $(".store").append("<h1><center>we are coming soon</center></h1>");
+                $(".iframes").show();
                 return null
             }
             const ifram=res.ifram[0].ifram
+            $(".iframes").hide();
             for (var i = 0; i < res.store.length; i++) {
                 var html =
                     '<p class="storehead">' +

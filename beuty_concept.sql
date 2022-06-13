@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 31, 2022 at 10:37 AM
+-- Generation Time: Jun 13, 2022 at 02:20 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `cities` (
   `id` bigint(20) UNSIGNED NOT NULL,
+  `store_id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
@@ -38,14 +39,14 @@ CREATE TABLE `cities` (
 -- Dumping data for table `cities`
 --
 
-INSERT INTO `cities` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(2, 'New Delhi', NULL, NULL),
-(3, 'Mumbai', NULL, NULL),
-(4, 'Nagpur', NULL, NULL),
-(5, 'Jaipur', NULL, NULL),
-(6, 'Vadodara', NULL, NULL),
-(7, 'Kolkata', NULL, NULL),
-(8, 'Kochi', NULL, NULL);
+INSERT INTO `cities` (`id`, `store_id`, `name`, `created_at`, `updated_at`) VALUES
+(1, 1, 'Mumbai', NULL, NULL),
+(2, 1, 'New Delhi', NULL, NULL),
+(3, 2, 'Nagpur', NULL, NULL),
+(4, 2, 'Jaipur', NULL, NULL),
+(5, 2, 'Vadodara', NULL, NULL),
+(6, 3, 'Kolkata', NULL, NULL),
+(7, 3, 'Kochi', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -78,6 +79,22 @@ CREATE TABLE `failed_jobs` (
   `payload` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `exception` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `failed_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `jobs`
+--
+
+CREATE TABLE `jobs` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `queue` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `payload` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `attempts` tinyint(3) UNSIGNED NOT NULL,
+  `reserved_at` int(10) UNSIGNED DEFAULT NULL,
+  `available_at` int(10) UNSIGNED NOT NULL,
+  `created_at` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
@@ -131,10 +148,11 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (4, '2019_12_14_000001_create_personal_access_tokens_table', 1),
 (5, '2022_04_15_100256_create_contacts_table', 1),
 (6, '2022_05_27_161247_create_storecities_table', 1),
-(7, '2022_05_27_161311_create_cities_table', 1),
 (8, '2022_05_27_161336_create_stores_table', 1),
 (9, '2022_05_27_161710_create_storeaddresses_table', 1),
-(10, '2022_05_28_100934_create_maps_table', 2);
+(10, '2022_05_28_100934_create_maps_table', 2),
+(11, '2022_05_27_161311_create_cities_table', 3),
+(12, '2022_06_01_162005_create_jobs_table', 3);
 
 -- --------------------------------------------------------
 
@@ -258,7 +276,8 @@ CREATE TABLE `users` (
 -- Indexes for table `cities`
 --
 ALTER TABLE `cities`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `cities_store_id_foreign` (`store_id`);
 
 --
 -- Indexes for table `contacts`
@@ -272,6 +291,13 @@ ALTER TABLE `contacts`
 ALTER TABLE `failed_jobs`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `failed_jobs_uuid_unique` (`uuid`);
+
+--
+-- Indexes for table `jobs`
+--
+ALTER TABLE `jobs`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `jobs_queue_index` (`queue`);
 
 --
 -- Indexes for table `maps`
@@ -336,7 +362,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `cities`
 --
 ALTER TABLE `cities`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `contacts`
@@ -351,6 +377,12 @@ ALTER TABLE `failed_jobs`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `jobs`
+--
+ALTER TABLE `jobs`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `maps`
 --
 ALTER TABLE `maps`
@@ -360,7 +392,7 @@ ALTER TABLE `maps`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `personal_access_tokens`
@@ -395,6 +427,12 @@ ALTER TABLE `users`
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `cities`
+--
+ALTER TABLE `cities`
+  ADD CONSTRAINT `cities_store_id_foreign` FOREIGN KEY (`store_id`) REFERENCES `stores` (`id`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `maps`

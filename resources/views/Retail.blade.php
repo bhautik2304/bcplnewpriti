@@ -157,14 +157,13 @@
           Lifestyle Accessories under one umbrella. With the aim to make luxury accessible to Indian folks, we are
           available in multiple stores all over the subcontinent.
         </p>
-        <div class="row maisoncontent ">
+        <!-- <div class="row maisoncontent ">
           <div class="main">
             <div class="child">
               <p class="maisontext"> To know more please connect to our website :
               </p>
             </div>
             <div class="child">
-              <!-- <a href="https://mdpindia.com/pages/about-us" target="_blank"> <button class="maisonbtn">Maison de parfums</button> -->
                 <button type="button" class="maisonbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                  Beaute Luxe
                 </button>
@@ -183,7 +182,7 @@
             </div>
           </div>
 
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -252,11 +251,11 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                      <a href="{{route('about')}}" class="fbrands">
-                        <li>Mission</li>
+                    <a href="{{route('about')}}" class="fbrands">
+                        <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
-                        <li>vision</li>
+                        <li>Mission</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
                         <li>CSR</li>
