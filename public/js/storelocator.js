@@ -9,6 +9,8 @@ const store = () => {
      $(".store").append("<h1><center>Pls Select Your City</center></h1>")
 };
 
+
+
 const storeCity=()=> {
     var hotname=$(location).attr('protocol');
     const StoreValue = $("#store").val();
