@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 13, 2022 at 02:20 PM
+-- Generation Time: Jun 13, 2022 at 05:27 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -65,6 +65,19 @@ CREATE TABLE `contacts` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `contacts`
+--
+
+INSERT INTO `contacts` (`id`, `name`, `email`, `phone`, `subject`, `message`, `created_at`, `updated_at`) VALUES
+(1, 'Bhautik', 'dpprajapati1905@gmail.com', '2485165161', 'Retail Partnership', 'test', '2022-06-13 07:34:51', '2022-06-13 07:34:51'),
+(2, 'Bhautik', 'dpprajapati1905@gmail.com', '2485165161', 'Retail Partnership', 'test', '2022-06-13 07:34:56', '2022-06-13 07:34:56'),
+(9, 'Bhautik', 'dpprajapati1905@gmail.com', '2485165161', 'Retail Partnership', 'test', '2022-06-13 07:35:09', '2022-06-13 07:35:09'),
+(10, 'Bhautik', 'dpprajapati1905@gmail.com', '2485165161', 'Retail Partnership', 'test', '2022-06-13 07:35:09', '2022-06-13 07:35:09'),
+(11, 'Bhautik', 'dpprajapati1905@gmail.com', '2485165161', 'Retail Partnership', 'test', '2022-06-13 07:35:09', '2022-06-13 07:35:09'),
+(12, 'Bhautik', 'dpprajapati1905@gmail.com', '2485165161', 'Retail Partnership', 'test', '2022-06-13 07:35:10', '2022-06-13 07:35:10'),
+(14, 'Bhautik', 'dpprajapati1905@gmail.com', '4584596585', 'Career Options', 'test', '2022-06-13 07:39:19', '2022-06-13 07:39:19');
+
 -- --------------------------------------------------------
 
 --
@@ -117,13 +130,13 @@ CREATE TABLE `maps` (
 --
 
 INSERT INTO `maps` (`id`, `store_id`, `city_id`, `ifram`, `created_at`, `updated_at`) VALUES
-(3, 1, 3, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1e5OORoNW99uuzb2sDJ-S03Bw-oTSyZo&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL),
+(3, 1, 1, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1e5OORoNW99uuzb2sDJ-S03Bw-oTSyZo&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL),
 (4, 1, 2, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1ZcR4hfgYrQyVX-s_QwqXkemsqlj6RXo&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL),
-(5, 2, 4, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1GFkhx54BAUOfAD9c8-oh8fbxRZqlux4&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>\r\n\r\n', NULL, NULL),
-(6, 2, 5, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1dfqoS6560wMtpKaQZsK1Yx3m1BsJ1sI&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL),
-(7, 2, 6, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=19gtqEMfa2eyJLCAAZLw3j0wU2Rw2Xbs&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>\r\n', NULL, NULL),
-(8, 3, 7, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1CWx5WzneF4PabFAD8rvc1oU1QgjmIlc&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL),
-(9, 3, 8, '\r\n<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1qKwLLty34mamYl-SSy7CuQpgeW3thdU&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL);
+(5, 2, 3, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1GFkhx54BAUOfAD9c8-oh8fbxRZqlux4&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>\r\n\r\n', NULL, NULL),
+(6, 2, 4, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1dfqoS6560wMtpKaQZsK1Yx3m1BsJ1sI&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL),
+(7, 2, 5, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=19gtqEMfa2eyJLCAAZLw3j0wU2Rw2Xbs&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>\r\n', NULL, NULL),
+(8, 3, 6, '<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1CWx5WzneF4PabFAD8rvc1oU1QgjmIlc&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL),
+(9, 3, 7, '\r\n<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1qKwLLty34mamYl-SSy7CuQpgeW3thdU&ehbc=2E312F\" width=\"100%\" height=\"600\"></iframe>', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -209,13 +222,13 @@ CREATE TABLE `storeaddresses` (
 
 INSERT INTO `storeaddresses` (`id`, `store_id`, `city_id`, `storename`, `storeaddress`, `pincode`, `email`, `no`, `created_at`, `updated_at`) VALUES
 (1, 1, 2, 'SELECT CITY WALK\r\n\r\n\r\n', 'G – 55, Ground Floor, Select City Walk, New Delhi ', NULL, NULL, NULL, NULL, NULL),
-(2, 1, 3, 'PALLADIUM MUMBAI\r\n\r\n', 'F-15A, 1st Floor, Palladium Mall, Lower Parel, Mumbai - 400013', NULL, NULL, NULL, NULL, NULL),
-(3, 1, 3, 'JIO WORLD DRIVE\r\n\r\n', 'F-32, 1st Floor, Jio World Drive Mall, Bandra Kurla Complex, Bandra East, Mumbai - 400051', NULL, NULL, NULL, NULL, NULL),
-(4, 2, 4, 'VR MALL NAGPUR\r\n\r\n', 'VR Mall unit no. K03 Upper Ground Floor Medical Square Nagpur: 440003', NULL, NULL, NULL, NULL, NULL),
-(5, 2, 5, 'WORLD TRADE PARK JAIPUR\r\n', 'World Trade Park, B-Block, 1st Floor, Near to Shoppers Stop, Jawahar Lal Nehru Marg, Jaipur – 302017.', NULL, NULL, NULL, NULL, NULL),
-(6, 2, 6, 'INORBIT MALL – VADODARA\r\n', 'Ground Floor Alembic Rd, Opposite to Alembic School, Gorwa, Vadodara, Gujarat-390023 ', NULL, NULL, NULL, NULL, NULL),
-(7, 3, 7, 'Beaute Luxe, Kolkata :', 'Domestic Airport\r\nJessore Rd, Dum Dum, Kolkata, West Bengal', NULL, NULL, NULL, NULL, NULL),
-(8, 3, 8, 'Beaute Luxe, Kochi:', 'SHOP NO 8, DOMESTIC DEPARTURE TERMINAL, \r\nCOCHIN INTERNATIONAL AIRPORT LIMITED, \r\nALUVA, ERNAKULAM, KERALA - 683111', NULL, NULL, NULL, NULL, NULL);
+(2, 1, 1, 'PALLADIUM MUMBAI\r\n\r\n', 'F-15A, 1st Floor, Palladium Mall, Lower Parel, Mumbai - 400013', NULL, NULL, NULL, NULL, NULL),
+(3, 1, 1, 'JIO WORLD DRIVE\r\n\r\n', 'F-32, 1st Floor, Jio World Drive Mall, Bandra Kurla Complex, Bandra East, Mumbai - 400051', NULL, NULL, NULL, NULL, NULL),
+(4, 2, 3, 'VR MALL NAGPUR\r\n\r\n', 'VR Mall unit no. K03 Upper Ground Floor Medical Square Nagpur: 440003', NULL, NULL, NULL, NULL, NULL),
+(5, 2, 4, 'WORLD TRADE PARK JAIPUR\r\n', 'World Trade Park, B-Block, 1st Floor, Near to Shoppers Stop, Jawahar Lal Nehru Marg, Jaipur – 302017.', NULL, NULL, NULL, NULL, NULL),
+(6, 2, 5, 'INORBIT MALL – VADODARA\r\n', 'Ground Floor Alembic Rd, Opposite to Alembic School, Gorwa, Vadodara, Gujarat-390023 ', NULL, NULL, NULL, NULL, NULL),
+(7, 3, 6, 'Beaute Luxe, Kolkata :', 'Domestic Airport\r\nJessore Rd, Dum Dum, Kolkata, West Bengal', NULL, NULL, NULL, NULL, NULL),
+(8, 3, 7, 'Beaute Luxe, Kochi:', 'SHOP NO 8, DOMESTIC DEPARTURE TERMINAL, \r\nCOCHIN INTERNATIONAL AIRPORT LIMITED, \r\nALUVA, ERNAKULAM, KERALA - 683111', NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -368,19 +381,19 @@ ALTER TABLE `cities`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
 --
 ALTER TABLE `failed_jobs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `jobs`
 --
 ALTER TABLE `jobs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `maps`
