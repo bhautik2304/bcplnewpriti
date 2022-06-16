@@ -101,7 +101,7 @@
   <div class="container-fluid">
     <div class="row m-5">
       <div class="left">
-        <img src="pictures/Maison-De-Parfums.jpg" class="retailimg" alt="" />
+        <img src="pictures/Maison-De-Parfums.jpg" class="retailimg-1" alt="" />
       </div>
       <div class="right">
         <p class="retailtext">
@@ -144,7 +144,7 @@
   <div class="container-fluid">
     <div class="row m-5">
       <div class="left">
-        <img src="pictures/Beauty-Luxe.jpg" class="retailimg" alt="" />
+        <img src="pictures/beaute luxe.svg" class="retailimg-2" alt="" />
       </div>
       <div class="right">
         <p class="retailtext">
@@ -193,7 +193,7 @@
   <div class="container-fluid">
     <div class="row m-5">
       <div class="left">
-        <img src="pictures/Beauty-Scentiments.jpg" class="retailimg" alt="" />
+        <img src="pictures/Beauty-Scentiments.svg" class="retailimg-3" alt="" />
       </div>
       <div class="right">
         <p class="retailtext">

@@ -1213,7 +1213,7 @@ input[type=checkbox] {
 }
 
 .maisontext {
-    color: #F9698C;
+    color: #1A6BB0;
     font-family: montserrat, sans-serif !important;
     font-size: 23.6px;
 }
@@ -2019,7 +2019,7 @@ input[type=checkbox] {
     font-family: montserrat, sans-serif !important;
     font-size: 70px;
     margin: 50px 0;
-    color: #1A60BB;
+    color: #1A6BB0;
 }
 
 .retaildata {
@@ -2028,13 +2028,26 @@ input[type=checkbox] {
 
 
 
-.retailimg {
-    width: 100%;
+.retailimg-1 {
+     width: 100%;
+   
+
+}
+.retailimg-2 {
+    width: 70%;
+ margin-top: 40px;
+    margin-left: 50px;
+
+}
+.retailimg-3 {
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 30px;
+
 }
 
 .row .left {
     width: 25%;
-    float: left;
 
 }
 
@@ -2063,17 +2076,36 @@ input[type=checkbox] {
         font-size: 13px;
     }
 
+
+
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
 
 
-    .retailimg {
+    .retailimg-1 {
         width: 40%;
 
     }
 
-    .retailimg {
+    .retailimg-2 {
+        width: 40%;
+ margin-top: 0px;
+ margin-left: 0px;
+     
+    
+    }
+    
+    .retailimg-3 {
+        width: 50%;
+ margin-top: 0px;
+ margin-left: 0px;
+     
+    
+    }
+
+
+    .retailtext {
         font-size: 10px;
     }
 
@@ -2125,6 +2157,27 @@ input[type=checkbox] {
     .retailmainhead {
 
         font-size: 30px;
+    }
+
+    .retailimg-1 {
+        width: 40%;
+
+    }
+
+    .retailimg-2 {
+        width: 40%;
+    margin-top: 0px;
+    margin-left: 0px;
+     
+    
+    }
+
+    .retailimg-2 {
+        width: 60%;
+    margin-top: 0px;
+    margin-left: 0px;
+     
+    
     }
 
 }
