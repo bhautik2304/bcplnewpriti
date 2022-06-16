@@ -158,7 +158,7 @@
         <div class="col-md-6 col-sm-12">
           <div class="row">
             <div class="col-md-8 col-sm-6 text-center mt-5">
-              <img src="pictures/logobig.svg" width="80%" alt="" />
+              <img src="pictures/logo.svg" width="80%" alt="" />
               <p class="mt-5 afterlogo">
                 Vardaan 403 25A, Camac Street <br />
                 Kolkata- 700016, India <br />
