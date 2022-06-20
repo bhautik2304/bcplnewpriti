@@ -105,28 +105,28 @@
       <div class="col-md-6 pt-5">
         <div id="map">
           <div class=" mt-3">
-            <img src="/pictures/map-bcpl.png" width="100%" alt="Map">
+            <img src="/pictures/bcpl/map bcpl.png" width="100%" alt="Map">
           </div>
           <div id="dots">
-            <div class="dot dot-1"></div>
-            <div class="dot dot-2"></div>
-            <div class="dot dot-3"></div>
-            <div class="dot dot-4"></div>
-            <div class="dot dot-5"></div>
-            <div class="dot dot-6"></div>
-            <div class="dot dot-7"></div>
-            <div class="dot dot-8"></div>
-            <div class="dot dot-9"></div>
-            <div class="dot dot-10"></div>
-            <div class="dot dot-11"></div>
-            <div class="dot dot-12"></div>
-            <div class="dot dot-13"></div>
-            <div class="dot dot-14"></div>
-            <div class="dot dot-15"></div>
-            <div class="dot dot-16"></div>
-            <div class="dot dot-17"></div>
-            <div class="dot dot-18"></div>
-            <div class="dot dot-19"></div>
+            <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" /></div>
+            <div class="dot dot-2"><img src="/pictures/bcpl/office.svg" /></div>
+            <div class="dot dot-3"><img src="/pictures/bcpl/beaute luxe.svg" /></div>
+            <div class="dot dot-4"><img src="/pictures/bcpl/warehouse.svg" /></div>
+            <div class="dot dot-5"><img src="/pictures/bcpl/office.svg" /></div>
+            <div class="dot dot-6"><img src="/pictures/bcpl/maison de parfums.svg" /></div>
+            <div class="dot dot-7"><img src="/pictures/bcpl/beaute luxe.svg" /></div>
+            <div class="dot dot-8"><img src="/pictures/bcpl/beauty scentiments.svg" /></div>
+            <div class="dot dot-9"><img src="/pictures/bcpl/maison de parfums.svg" /></div>
+            <div class="dot dot-10"><img src="/pictures/bcpl/office.svg" /></div>
+            <div class="dot dot-11"><img src="/pictures/bcpl/warehouse.svg" /></div>
+            <div class="dot dot-12"><img src="/pictures/bcpl/beaute luxe.svg" /></div>
+            <div class="dot dot-13"><img src="/pictures/bcpl/warehouse.svg" /></div>
+            <div class="dot dot-14"><img src="/pictures/bcpl/office.svg" /></div>
+            <div class="dot dot-15"><img src="/pictures/bcpl/warehouse.svg" /></div>
+            <div class="dot dot-16"><img src="/pictures/bcpl/office.svg" /></div>
+            <div class="dot dot-17"><img src="/pictures/bcpl/warehouse.svg" /></div>
+            <div class="dot dot-18"><img src="/pictures/bcpl/office.svg" /></div>
+            <div class="dot dot-19"><img src="/pictures/bcpl/beauty scentiments.svg" /></div>
           </div>
         </div>
         <div class="row">

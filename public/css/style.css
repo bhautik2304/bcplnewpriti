@@ -2312,7 +2312,7 @@ input[type=checkbox] {
 /* ********************Map******************************* */
 
 /* Original pulsing dots by sharla */
-@-webkit-keyframes pulse {
+/* @-webkit-keyframes pulse {
     0% {
         box-shadow: 0px 0px 0px 0px gray;
     }
@@ -2330,7 +2330,7 @@ input[type=checkbox] {
     100% {
         box-shadow: 0px 0px 0px 7px rgba(52, 106, 180, 0);
     }
-}
+} */
 
 
 /* img {
@@ -2345,19 +2345,19 @@ input[type=checkbox] {
 }
 
 .dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
+    width: 20%;
+    /* height: 9px; */
+    /* border-radius: 50%;
     background: #346ab4;
 
     -webkit-animation: pulse 1.5s infinite ease-out;
-    animation: pulse 1.5s infinite ease-out;
+    animation: pulse 1.5s infinite ease-out; */
     position: absolute;
     z-index: 1;
     top: 50%;
     left: 50%;
 }
-
+/* 
 .dot:before {
     content: "";
     position: absolute;
@@ -2375,140 +2375,134 @@ input[type=checkbox] {
 .dot:nth-child(odd) {
     -webkit-animation: pulse 1.5s infinite ease-out 0.3s;
     animation: pulse 1.5s infinite ease-out 0.3s;
+} */
+
+.dot img {
+    width: 20px;
 }
 
 .dot-1 {
-    top: 40%;
-    left: 21.5%;
-    background: #FF0000;
-
-
+    top: 38%;
+    left: 20.5%;    
 }
 
 .dot-2 {
-    top: 40%;
-    left: 26.5%;
-    background: #8B008B;
-
+    top: 38%;
+    left: 27%;
 
 }
 
 .dot-3 {
-    top: 38%;
-    left: 24%;
+    top: 35%;
+    left: 23.5%;
 
-    background: #346FB5;
-}
+    }
 
 .dot-4 {
-    top: 52.5%;
-    left: 26%;
-
-    background: #FF0000;
+    top: 50.5%;
+    left: 24%;   
 }
 
+
 .dot-5 {
-    top: 52.5%;
+    top: 50.5%;
     left: 30%;
 
-    background: #8B008B;
+
 }
 
 .dot-6 {
-    top: 50%;
-    left: 28%;
+    top: 48%;
+    left: 27%;
 
-    background: #d7b56d;
+    
 }
 
 .dot-7 {
-    top: 42%;
-    left: 36%;
+    top: 39.5%;
+    left: 35%;
 
-    background: #346FB5;
+    
 }
 
 .dot-8 {
-    top: 79%;
-    left: 37%;
-
-    background: #86C391;
+    top: 78%;
+    left: 36%;;
 }
 
 .dot-9 {
-    top: 20.5%;
-    left: 36%;
+    top: 17%;
+    left: 35%;
 
-    background: #d7b56d;
+    
 }
 
 .dot-10 {
-    top: 20.5%;
-    left: 39.5%;
-    background: #8B008B;
+    top: 17%;
+    left: 40%;
+
 
 }
 
 .dot-11 {
-    top: 18%;
+    top: 15%;
     left: 37.5%;
-    background: #FF0000;
+    
 
 }
 
 .dot-12 {
-    top: 45.5%;
+    top: 43%;
     left: 48%;
 
-    background: #346FB5;
+    
 }
 
 .dot-13 {
-    top: 56.5%;
+    top: 54.5%;
     left: 41%;
 
-    background: #FF0000;
+    
 }
 
 .dot-14 {
-    top: 56.5%;
+    top: 54.5%;
     left: 45%;
 
-    background: #8B008B;
+
 }
 
 .dot-15 {
-    top: 71%;
+    top: 69%;
     left: 39%;
 
-    background: #FF0000;
+    
 }
 
 .dot-16 {
-    top: 71%;
+    top: 69%;
     left: 43%;
 
-    background: #8B008B;
+
 }
 
 .dot-17 {
-    top: 42%;
+    top: 40%;
     left: 68%;
 
-    background: #FF0000;
+    
 }
 
 .dot-18 {
-    top: 42%;
-    left: 71%;
+    top: 40%;
+    left: 72.5%;
 
-    background: #8B008B;
+
 }
 
 .dot-19 {
-    top: 39%;
-    left: 69.5%;
-    background: #86C391;
+    top: 37%;
+    left: 70%;
 
 }
 
