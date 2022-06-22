@@ -41,5 +41,5 @@ Route::get('/mailable', function () {
         "subject"=>"other"
     ];
     Mail::to('dndtecnosol@gmail.com')->send(new contactus($data));
-    return "i all sended";
+    return "mail send success";
 });

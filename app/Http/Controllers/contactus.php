@@ -24,7 +24,7 @@ class contactus extends Controller
         $contact->save();
         switch ($subject) {
             case "Retail Partnership":
-                $departmentUseremail="paras@roots-and-stalks.com";
+                $departmentUseremail=["paras@roots-and-stalks.com",""];
                 $departmentUsername="Paras";
               break;
             case "Career Options":

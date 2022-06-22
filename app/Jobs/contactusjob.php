@@ -36,7 +36,8 @@ class contactusjob implements ShouldQueue
     public function handle()
     {
         //
-
-        Mail::to($this->departmentUser)->send(new MailContactus($this->data));
+        foreach ($this->departmentUser as $recipient) {
+            Mail::to($recipient)->send(new MailContactus($this->data));
+        }
     }
 }

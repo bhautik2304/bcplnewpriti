@@ -1,14 +1,12 @@
 @component('mail::message')
-<center><strong>{{$data['subject']}} Contact Us </strong></center>
 
-Hello {{$data['department_user_name']}} This Mail From {{ config('app.name') }} Bot.
+Hello, This mail from contact us {{ config('app.name') }} Bot.
 
-Costomer Name {{$data['name']}}
-
-<b>mobail</b>:<a href="tel:{{$data['mobail']}}">{{$data['mobail']}}</a><br>
-<b>email</b>:<a href="mailto:{{$data['email']}}">{{$data['email']}}</a><br>
-
-<b>User Message</b>: {{$data['msg']}}
+<b>Name:</b> &nbsp;{{$data['name']}}<br>
+<b>Mobile:</b>&nbsp;<a href="tel:{{$data['mobail']}}">{{$data['mobail']}}</a><br>
+<b>Email:</b>&nbsp;<a href="mailto:{{$data['email']}}">{{$data['email']}}</a><br>
+<strong>Subject:</strong>&nbsp;{{$data['subject']}}<br>
+<b>User Message:</b>&nbsp; {{$data['msg']}}
 
 @php
     $btn=$data['email'];
