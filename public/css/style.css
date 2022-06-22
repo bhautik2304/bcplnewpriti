@@ -978,6 +978,11 @@ nav ul .centermenu img {
     font-weight: 500;
 }
 
+.wfoot a {
+    text-decoration: none;
+    color: #000;
+}
+
 .icontext {
     font-size: 20px;
 }
@@ -1250,7 +1255,6 @@ input[type=checkbox] {
 @media screen and (max-width:1200px) {
 
     .maisontext {
-        color: #F9698C;
         font-family: montserrat, sans-serif !important;
         font-size: 19px;
     }
@@ -1289,7 +1293,6 @@ input[type=checkbox] {
     }
 
     .maisontext {
-        color: #F9698C;
         font-family: montserrat, sans-serif !important;
         font-size: 14px;
     }
@@ -1314,7 +1317,6 @@ input[type=checkbox] {
     }
 
     .maisontext {
-        color: #F9698C;
         font-family: montserrat, sans-serif !important;
         font-size: 22px;
     }
@@ -1752,6 +1754,25 @@ input[type=checkbox] {
     background-color: #000;
 }
 
+.mvsection .csr {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    font-family: montserrat, sans-serif !important;
+}
+
+.mvsection .csr::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 4px;
+    bottom: -8px;
+    left: 350px;
+    border-radius: 6px;
+    background-color: #000;
+}
+
 .mvsection p {
     font-size: 15px;
     margin-top: 20px;
@@ -1790,6 +1811,25 @@ input[type=checkbox] {
 
     }
 
+    .mvsection .csr {
+        font-size: 25px;
+        font-weight: bold;
+        position: relative;
+        font-family: montserrat, sans-serif !important;
+    }
+    
+    .mvsection .csr::after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 90px;
+        height: 5px;
+        bottom: -8px;
+        left: 320px;
+        border-radius: 6px;
+        background-color: #000;
+    }
+
     .mvsection p {
         font-size: 15px;
     }
@@ -1814,6 +1854,26 @@ input[type=checkbox] {
         border-radius: 6px;
 
     }
+
+    .mvsection .csr {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        font-family: montserrat, sans-serif !important;
+    }
+    
+    .mvsection .csr::after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 90px;
+        height: 5px;
+        bottom: -8px;
+        left: 70px;
+        border-radius: 6px;
+        background-color: #000;
+    }
+
 
     .mvsection p {
         font-size: 10px;
@@ -1840,6 +1900,26 @@ input[type=checkbox] {
 
     }
 
+    .mvsection .csr {
+        margin-top: 50px;
+        font-size: 22px;
+        font-weight: bold;
+        position: relative;
+        font-family: montserrat, sans-serif !important;
+    }
+    
+    .mvsection .csr::after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 90px;
+        height: 5px;
+        bottom: -8px;
+        left: 280px;
+        border-radius: 6px;
+        background-color: #000;
+    }
+
     .mvsection p {
         font-size: 13px;
     }
@@ -1849,6 +1929,34 @@ input[type=checkbox] {
     .mvsection .img-vi {
         margin-top: 20px;
     }
+
+}
+
+@media screen and (max-width:422px) {
+
+    
+
+    .mvsection .csr {
+        margin-top: 50px;
+        font-size: 22px;
+        font-weight: bold;
+        position: relative;
+        font-family: montserrat, sans-serif !important;
+    }
+    
+    .mvsection .csr::after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 120px;
+        height: 5px;
+        bottom: -8px;
+        left: 80px;
+        border-radius: 6px;
+        background-color: #000;
+    }
+
+
 
 }
 
@@ -2030,11 +2138,12 @@ input[type=checkbox] {
 
 .retailimg-1 {
      width: 100%;
+     margin-top: 50px;
    
 
 }
 .retailimg-2 {
-    width: 70%;
+    width: 60%;
  margin-top: 40px;
     margin-left: 50px;
 

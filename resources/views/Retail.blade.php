@@ -10,24 +10,14 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script type="text/javascript" src="js/main.js"></script>
-      <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -43,7 +33,7 @@
             <a href="{{route('Maisondeperfums')}}" class="leftmenu">MAISON DE PARFUMS</a>
           </li>
           <li>
-            <a href="{{route('Index')}}" class="centermenu"><img src="pictures/logoblack.svg" alt="" /></a>
+            <a href="{{route('Index')}}" class="centermenu"><img src="pictures/logoblack.png" alt="" /></a>
           </li>
           <li><a href="{{route('Retail')}}" class="rightmenu active">RETAIL</a></li>
           <li>
@@ -58,10 +48,8 @@
     <div class="secondnav">
       <nav class="navbar navbar-expand-xm navbar-light p-md-3">
         <div class="container">
-          <a class="navbar-brand" class="centermenu" href="{{route('Index')}}" ><img src="pictures/logoblack.svg" width="40%"
-              alt="" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" class="centermenu" href="{{route('Index')}}"><img src="pictures/logoblack.png" width="40%" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -75,7 +63,7 @@
                 <a class="nav-link text-black" href="{{route('Brands')}}">BRANDS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black" href="Maisondeperfums.html">MAISON DE PARFUMS</a>
+                <a class="nav-link text-black" href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-black" href="{{route('Retail')}}">RETAIL</a>
@@ -95,9 +83,9 @@
 
   <img src="pictures/retail-banner.svg" width="100%" alt="" />
 
-  <div class="container mt-5 mb-5">
+  <!-- <div class="container mt-5 mb-5">
     <p class="retailmainhead">Maison Des Parfums</p>
-  </div>
+  </div> -->
   <div class="container-fluid">
     <div class="row m-5">
       <div class="left">
@@ -138,10 +126,10 @@
       </div>
     </div>
   </div>
-  <div class="container mt-5 mb-5">
+  <!-- <div class="container mt-5 mb-5">
     <p class="retailmainhead">Beaute Luxe</p>
-  </div>
-  <div class="container-fluid">
+  </div> -->
+  <div class="container-fluid pt-2">
     <div class="row m-5">
       <div class="left">
         <img src="pictures/beaute luxe.svg" class="retailimg-2" alt="" />
@@ -150,12 +138,13 @@
         <p class="retailtext">
           <strong> Making Luxury Accessible </strong>
           <br><br>
-          Beaute Luxe is a luxury retail store that houses Luxury and Niche brands reaching out to the most discerning
-          customers at their desirable locations.
+          Beaute Luxe are luxury retail stores that house BCPL’s Luxury and Niche
+          brands reaching out to the most discerning customers at their desirable locations.
           <br><br>
-          The main aim of Beauty Luxe is to bring all luxury brands in the categories of Beauty, Fragrance, Fashion and
-          Lifestyle Accessories under one umbrella. With the aim to make luxury accessible to Indian folks, we are
-          available in multiple stores all over the subcontinent.
+          The main aim of
+          Beaute Luxe is to bring all luxury brands in the categories of Beauty, Fragrance, Fashion and Lifestyle
+          Accessories under one umbrella. With the aim to make luxury accessible to the Indian customer, we
+          are available in multiple stores all over the subcontinent.
         </p>
         <!-- <div class="row maisoncontent ">
           <div class="main">
@@ -187,10 +176,10 @@
       </div>
     </div>
   </div>
-  <div class="container mt-5 mb-5">
+  <!-- <div class="container mt-5 mb-5">
     <p class="retailmainhead">Beauty Scentiments</p>
-  </div>
-  <div class="container-fluid">
+  </div> -->
+  <div class="container-fluid pt-3">
     <div class="row m-5">
       <div class="left">
         <img src="pictures/Beauty-Scentiments.svg" class="retailimg-3" alt="" />
@@ -199,14 +188,12 @@
         <p class="retailtext">
           <strong> Bringing You Everything Beautiful </strong>
           <br><br>
-          Beauty Scentiments has redefined conventional shopping experience with a brand portfolio that represents the
-          pinnacle of the craftsmanship and unsurpassed quality further reinforcing its position as India's most
-          desirable destination for world class brands.
+          Beauty Scentiments are retail stores that cater to aspirational
+          customers with BCPL’s lifestyle and prestige brands.
           <br><br>
-          It is India's foremost distribution house with a brand portfolio exceeding 50+ leading International brands in
-          the categories of beauty, fragrances, cosmetics and lifestyle. With over 30 years of customer understanding
-          across the segments of Mass, Premium, Prestige & Luxury, it provides its partners the competitive edge in a
-          challenging and emerging market like India.
+          With a vision to reach out to the burgeoning
+          middle class in multi-cities, it has re-defined the conventional shopping experience with a very
+          comfortable customer-friendly approach
         </p>
         <div class="row maisoncontent ">
           <div class="main">
@@ -228,15 +215,15 @@
 
   </div>
 
- <!-- footer -->
+  <!-- footer -->
 
- <div class="container-fluid ftoor pb-4 bg-black text-white">
+  <div class="container-fluid ftoor pb-4 bg-black text-white">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <div class="row">
             <div class="col-md-8 col-sm-6 text-center mt-5">
-              <img src="pictures/logo.svg" width="80%" alt="" />
+              <img src="pictures/logobig3.svg" width="80%" alt="" />
               <p class="mt-5 afterlogo">
                 Vardaan 403 25A, Camac Street <br />
                 Kolkata- 700016, India <br />
@@ -251,7 +238,7 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                    <a href="{{route('about')}}" class="fbrands">
+                      <a href="{{route('about')}}" class="fbrands">
                         <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
@@ -275,7 +262,9 @@
                       <a href="{{route('Retail')}}" class="fbrands">
                         <li>Beauty Luxe</li>
                       </a>
-                      <a href="{{route('Retail')}}" class="fbrands"><li>Beauty Scentiments</li></a>
+                      <a href="{{route('Retail')}}" class="fbrands">
+                        <li>Beauty Scentiments</li>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -327,14 +316,11 @@
                   <div class="mb-3">
                     <span class="icontext">Follow us: </span>&nbsp;&nbsp;
                     <span>
-                      <a href="https://www.instagram.com/beautyconcepts_india/" target="_blank"><img
-                          src="/pictures/insta.png" width="12%" alt=""></a>&nbsp;&nbsp;
+                      <a href="https://www.instagram.com/beautyconcepts_india/" target="_blank"><img src="/pictures/insta.png" width="12%" alt=""></a>&nbsp;&nbsp;
 
-                      <a href="https://www.facebook.com/BeautyConceptsIndia" target="_blank"><img src="/pictures/fb.png"
-                          width="12%" alt=""></a>&nbsp;&nbsp;
+                      <a href="https://www.facebook.com/BeautyConceptsIndia" target="_blank"><img src="/pictures/fb.png" width="12%" alt=""></a>&nbsp;&nbsp;
 
-                      <a href="https://www.linkedin.com/company/beauty-concepts-pvt.-ltd./" target="_blank"><img
-                          src="/pictures/linkedin.png" width="12%" alt=""></a>
+                      <a href="https://www.linkedin.com/company/beauty-concepts-pvt.-ltd./" target="_blank"><img src="/pictures/linkedin.png" width="12%" alt=""></a>
 
                     </span>
                   </div>
@@ -353,8 +339,8 @@
   <div class="container-fluid bg-white text-black">
     <div class="row text-center p-3">
       <div class="col-md-4 wfoot">Copyright 2021</div>
-      <div class="col-md-4 wfoot">Rights reserved by beauty concepts</div>
-      <div class="col-md-4 wfoot">Powered by roots and stalks digital</div>
+      <div class="col-md-4 wfoot">Rights reserved by Beauty Concepts</div>
+      <div class="col-md-4 wfoot"> <a href="https://www.roots-and-stalks.com/" target="_blank"> Powered by Roots and Stalks Digital</a></div>
     </div>
   </div>
 </body>

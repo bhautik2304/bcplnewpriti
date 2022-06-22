@@ -43,7 +43,7 @@
             <a href="{{route('Maisondeperfums')}}" class="leftmenu active">MAISON DE PARFUMS</a>
           </li>
           <li>
-            <a href="{{route('Index')}}" class="centermenu"><img src="pictures/logoblack.svg" alt="" /></a>
+            <a href="{{route('Index')}}" class="centermenu"><img src="pictures/logoblack.png" alt="" /></a>
           </li>
           <li><a href="{{route('Retail')}}" class="rightmenu">RETAIL</a></li>
           <li>
@@ -58,7 +58,7 @@
     <div class="secondnav">
       <nav class="navbar navbar-expand-xm navbar-light p-md-3">
         <div class="container">
-          <a class="navbar-brand" class="centermenu" href="{{route('Index')}}" ><img src="pictures/logoblack.svg" width="40%"
+          <a class="navbar-brand" class="centermenu" href="{{route('Index')}}" ><img src="pictures/logoblack.png" width="40%"
               alt="" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +75,7 @@
                 <a class="nav-link text-black" href="{{route('Brands')}}">BRANDS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black" href="Maisondeperfums.html">MAISON DE PARFUMS</a>
+                <a class="nav-link text-black"  href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-black" href="{{route('Retail')}}">RETAIL</a>
@@ -158,7 +158,7 @@
         <div class="col-md-6 col-sm-12">
           <div class="row">
             <div class="col-md-8 col-sm-6 text-center mt-5">
-              <img src="pictures/logo.svg" width="80%" alt="" />
+              <img src="pictures/logobig3.svg" width="80%" alt="" />
               <p class="mt-5 afterlogo">
                 Vardaan 403 25A, Camac Street <br />
                 Kolkata- 700016, India <br />
@@ -275,8 +275,8 @@
   <div class="container-fluid bg-white text-black">
     <div class="row text-center p-3">
       <div class="col-md-4 wfoot">Copyright 2021</div>
-      <div class="col-md-4 wfoot">Rights reserved by beauty concepts</div>
-      <div class="col-md-4 wfoot">Powered by roots and stalks digital</div>
+      <div class="col-md-4 wfoot">Rights reserved by Beauty Concepts</div>
+      <div class="col-md-4 wfoot"> <a href="https://www.roots-and-stalks.com/" target="_blank"> Powered by Roots and Stalks Digital</a></div>
     </div>
   </div>
 </body>
