@@ -23,10 +23,11 @@ async function callapi(){
             type: "post",
             data: data,
          success:function (res) {
+            alert(res.msg)
           $('#FullName').val("");
           $('#email').val("");
           $('#mobail').val("");
-          $('#subject').val("");
+          $('#subject').val("Select Subject");
           $('#msg').val("");
          },
      });

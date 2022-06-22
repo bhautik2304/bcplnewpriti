@@ -62,11 +62,8 @@ class contactus extends Controller
               "msg"=>$msg
             ];
 
-            $job= dispatch(new contactusjob($data,$departmentUseremail));
-            // dd($data);
-            return response(["msg"=>"Thank You for Conencting".$name." us. We Contact As Soon Possibel"]);
-    //    if(isset($job)){
-    //    }
+            dispatch(new contactusjob($data,$departmentUseremail));
+            return response(["msg"=>"Thank you ".$name." for reaching out to us.We will get in touch with you very soon"]);
     }
 
 }
