@@ -706,7 +706,9 @@
 
     <!-- -------------------------------------- -->
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <!-- <script type="text/javascript" src="{{URL::asset('assets/js/main.js')}}"></script> -->
+
     <!-- <script type="text/javascript">
       var nav = document.querySelector("nav");
 
@@ -721,8 +723,8 @@
 
     <!-- ------------------------------------------- -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="jquery.counterup.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/main.js"></script>
 
 
   </body>
