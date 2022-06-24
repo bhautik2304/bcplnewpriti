@@ -57,7 +57,7 @@ header .overlay {
     position: absolute;
     cursor: pointer;
     top: 92%;
-    right: 30px;
+    right: 80px;
     z-index: 3;
     color: #fff;
 }
@@ -65,8 +65,9 @@ header .overlay {
 .volume-btn {
     position: absolute;
     cursor: pointer;
+    width: 70px;
     top: 92.7%;
-    right: 60px;
+    right: 5px;
     z-index: 3;
     color: #fff;
 }
