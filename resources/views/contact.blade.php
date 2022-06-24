@@ -7,34 +7,23 @@
   <title>Contact us</title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script type="text/javascript" src="js/main.js"></script>
-      <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 
-      {{-- jquery cdn link --}}
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+  {{-- jquery cdn link --}}
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -65,10 +54,8 @@
     <div class="secondnav">
       <nav class="navbar navbar-expand-xm navbar-light p-md-3">
         <div class="container">
-          <a class="navbar-brand" class="centermenu" href="{{route('Index')}}" ><img src="pictures/logoblack.png" width="40%"
-              alt="" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" class="centermenu" href="{{route('Index')}}"><img src="pictures/logoblack.png" width="40%" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -82,7 +69,7 @@
                 <a class="nav-link text-black" href="{{route('Brands')}}">BRANDS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black"  href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
+                <a class="nav-link text-black" href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-black" href="{{route('Retail')}}">RETAIL</a>
@@ -110,25 +97,27 @@
             <img src="/pictures/bcpl/map bcpl.png" width="100%" alt="Map">
           </div>
           <div id="dots">
-            <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" /></div>
-            <div class="dot dot-2"><img src="/pictures/bcpl/office.svg" /></div>
-            <div class="dot dot-3"><img src="/pictures/bcpl/beaute luxe.svg" /></div>
-            <div class="dot dot-4"><img src="/pictures/bcpl/warehouse.svg" /></div>
-            <div class="dot dot-5"><img src="/pictures/bcpl/office.svg" /></div>
-            <div class="dot dot-6"><img src="/pictures/bcpl/maison de parfums.svg" /></div>
-            <div class="dot dot-7"><img src="/pictures/bcpl/beaute luxe.svg" /></div>
-            <div class="dot dot-8"><img src="/pictures/bcpl/beauty scentiments.svg" /></div>
-            <div class="dot dot-9"><img src="/pictures/bcpl/maison de parfums.svg" /></div>
-            <div class="dot dot-10"><img src="/pictures/bcpl/office.svg" /></div>
-            <div class="dot dot-11"><img src="/pictures/bcpl/warehouse.svg" /></div>
-            <div class="dot dot-12"><img src="/pictures/bcpl/beaute luxe.svg" /></div>
-            <div class="dot dot-13"><img src="/pictures/bcpl/warehouse.svg" /></div>
-            <div class="dot dot-14"><img src="/pictures/bcpl/office.svg" /></div>
-            <div class="dot dot-15"><img src="/pictures/bcpl/warehouse.svg" /></div>
-            <div class="dot dot-16"><img src="/pictures/bcpl/office.svg" /></div>
-            <div class="dot dot-17"><img src="/pictures/bcpl/warehouse.svg" /></div>
-            <div class="dot dot-18"><img src="/pictures/bcpl/office.svg" /></div>
-            <div class="dot dot-19"><img src="/pictures/bcpl/beauty scentiments.svg" /></div>
+            <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-2"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
+            <div class="dot dot-3"><img src="/pictures/bcpl/beauty scentiments.svg" /><span class="tooltiptext">Beauty Scentiments</span></div>
+            <div class="dot dot-4"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-5"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
+            <div class="dot dot-6"><img src="/pictures/bcpl/maison de parfums.svg" /><span class="tooltiptext">Maison des parfums</span></div>
+            <div class="dot dot-20"><img src="/pictures/bcpl/beaute luxe.svg" /><span class="tooltiptext">Beaute luxe</span></div>
+            <div class="dot dot-7"><img src="/pictures/bcpl/beauty scentiments.svg" /><span class="tooltiptext">Beauty Scentiments</span></div>
+            <div class="dot dot-8"><img src="/pictures/bcpl/beaute luxe.svg" /><span class="tooltiptext">Beaute luxe</span></div>
+            <div class="dot dot-9"><img src="/pictures/bcpl/maison de parfums.svg" /><span class="tooltiptext">Maison des parfums</span></div>
+            <div class="dot dot-10"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
+            <div class="dot dot-11"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-12"><img src="/pictures/bcpl/beauty scentiments.svg" /><span class="tooltiptext">Beauty Scentiments</span></div>
+            <div class="dot dot-13"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-14"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
+            <div class="dot dot-15"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-16"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
+            <div class="dot dot-17"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-18"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
+            <div class="dot dot-19"><img src="/pictures/bcpl/beaute luxe.svg" /><span class="tooltiptext">Beaute luxe</span></div>
+            
           </div>
         </div>
         <div class="row">
@@ -139,35 +128,35 @@
       </div>
       <div class="col-md-6 mt-5 mb-5 formbg pb-5">
         <div class="container">
-    <form method="POST" id="formSubmit">
+          <form method="POST" id="formSubmit">
             @csrf
             <p class="text-center formhead">We are here to help you</p>
             <input class="fname" type="text" id="FullName" placeholder="Full name" /><br />
             <!-- Error -->
             @if ($errors->has('name'))
             <div class="error">
-                {{ $errors->first('name') }}
+              {{ $errors->first('name') }}
             </div>
             @endif
             <input class="feemail" id="email" type="email" placeholder="E-Mail Address" />
             @if ($errors->has('email'))
-        <div class="error">
-            {{ $errors->first('email') }}
-        </div>
-        @endif<br />
+            <div class="error">
+              {{ $errors->first('email') }}
+            </div>
+            @endif<br />
 
             <input class="fnumber" id="mobail" type="number" placeholder="Contact details" />
             @if ($errors->has('phone'))
-        <div class="error">
-            {{ $errors->first('phone') }}
-        </div>
-        @endif<br />
-            <select id="subject"  value="Select Subject" class="selectsubject">
-            @if ($errors->has('subject'))
-        <div class="error">
-            {{ $errors->first('subject') }}
-        </div>
-        @endif
+            <div class="error">
+              {{ $errors->first('phone') }}
+            </div>
+            @endif<br />
+            <select id="subject" value="Select Subject" class="selectsubject">
+              @if ($errors->has('subject'))
+              <div class="error">
+                {{ $errors->first('subject') }}
+              </div>
+              @endif
               <option value="Select Subject">Select Subject</option>
               <option value="Brand Partnership">Brand Partnership</option>
               <option value="Retail Partnership">Retail Partnership</option>
@@ -178,21 +167,21 @@
             </select><br />
             <input class="fmessage mb-5" id="msg" type="text" placeholder="Your message" />
             @if ($errors->has('message'))
-        <div class="error">
-            {{ $errors->first('message') }}
-        </div>
-        @endif<br />
+            <div class="error">
+              {{ $errors->first('message') }}
+            </div>
+            @endif<br />
             <button class="fsubmit" type="submit">Talk to us</button><br />
         </div>
-    </form>
+        </form>
 
       </div>
     </div>
   </div>
 
- <!-- footer -->
+  <!-- footer -->
 
- <div class="container-fluid ftoor pb-4 bg-black text-white">
+  <div class="container-fluid ftoor pb-4 bg-black text-white">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
@@ -213,7 +202,7 @@
                       <span class="foothead">ABOUT US</span>
                     </div>
                     <div class="footdataaa">
-                    <a href="{{route('about')}}" class="fbrands">
+                      <a href="{{route('about')}}" class="fbrands">
                         <li>Vision</li>
                       </a>
                       <a href="{{route('about')}}" class="fbrands">
@@ -237,7 +226,9 @@
                       <a href="{{route('Retail')}}" class="fbrands">
                         <li>Beauty Luxe</li>
                       </a>
-                      <a href="{{route('Retail')}}" class="fbrands"><li>Beauty Scentiments</li></a>
+                      <a href="{{route('Retail')}}" class="fbrands">
+                        <li>Beauty Scentiments</li>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -289,14 +280,11 @@
                   <div class="mb-3">
                     <span class="icontext">Follow us: </span>&nbsp;&nbsp;
                     <span>
-                      <a href="https://www.instagram.com/beautyconcepts_india/" target="_blank"><img
-                          src="/pictures/insta.png" width="12%" alt=""></a>&nbsp;&nbsp;
+                      <a href="https://www.instagram.com/beautyconcepts_india/" target="_blank"><img src="/pictures/insta.png" width="12%" alt=""></a>&nbsp;&nbsp;
 
-                      <a href="https://www.facebook.com/BeautyConceptsIndia" target="_blank"><img src="/pictures/fb.png"
-                          width="12%" alt=""></a>&nbsp;&nbsp;
+                      <a href="https://www.facebook.com/BeautyConceptsIndia" target="_blank"><img src="/pictures/fb.png" width="12%" alt=""></a>&nbsp;&nbsp;
 
-                      <a href="https://www.linkedin.com/company/beauty-concepts-pvt.-ltd./" target="_blank"><img
-                          src="/pictures/linkedin.png" width="12%" alt=""></a>
+                      <a href="https://www.linkedin.com/company/beauty-concepts-pvt.-ltd./" target="_blank"><img src="/pictures/linkedin.png" width="12%" alt=""></a>
 
                     </span>
                   </div>

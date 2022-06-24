@@ -697,6 +697,15 @@
       volume.addEventListener('change', function(e) {
         video.volume = e.currentTarget.value / 100;
       });
+
+     
+    const muted = volume === 0
+    // iOS workaround when volume is 0
+    this.sound.muted = muted
+    this.sound.volume = volume
+  
+
+
     </script>
 
     <!-- -------------------------------------- -->
