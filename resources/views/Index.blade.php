@@ -8,7 +8,7 @@
   <title>Beauty Concepts</title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="stylesheet" href="{{url('css/style.css')}}" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -182,12 +182,11 @@
         </div>
       </div>
     </div>
-
     <div class="container mt-5 mb-5">
       <div class="row knowusallcontent">
         <div class="col-md-6 col-sm-12 mb-3">
           <p class="knowushead">Know About Us</p>
-          
+
           <p class="knowuscontent">
             BCPL - BEAUTY CONCEPTS, established in the year 1998 is an integral part of the Bahety Group of
             Companies. With a brand portfolio of over 100+ brands, BCPL is the preferred partner for international
@@ -206,7 +205,6 @@
         </div>
       </div>
     </div>
-
     <div class="container mb-5">
       <div class="mt-3 mb-3 text-center justify-content-between">
         <span><img src="pictures/ring.png" style="width: 10%" /></span>&nbsp;
@@ -214,23 +212,35 @@
         &nbsp;&nbsp;<span><img src="pictures/ring.png" style="width: 10%" /></span>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 mt-2">
+      <div class="col-lg-3 col-md-6 col-sm-6 mt-2">
           <div class="card text-white whychooseusimg">
-
-            <div class="flip-cardf">
-              <div class="flip-card-innerf">
-                <div class="flip-card-frontf">
+            <div class="flip-cardl">
+              <div class="flip-card-innerl">
+                <div class="flip-card-frontl">
                   <p>We're brand builders</p>
                 </div>
-                <div class="flip-card-backf">
-
+                <div class="flip-card-backl">
                   <p>Building brands is our passion that runs in our DNA. We are…but an
                     extension of you, be it your brand or your customers, we understand you 100 per cent.</p>
-
                 </div>
               </div>
-
-
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 col-sm-6 mt-2">
+          <div class="card text-white whychooseusimg">
+            <div class="flip-cardt">
+              <div class="flip-card-innert">
+                <div class="flip-card-frontt">
+                <p> We’ve deep-rooted relationships </p>
+                </div>
+                <div class="flip-card-backt">
+                <p>With over 30 years of experience, our teams have
+                    established a deep-rooted bond and excellent working relationship with all leading retailers and
+                    end customers.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -239,61 +249,34 @@
             <div class="flip-cards">
               <div class="flip-card-inners">
                 <div class="flip-card-fronts">
-                  <p> We’ve deep-rooted relationships </p>
-                </div>
-                <div class="flip-card-backs">
-
-                  <p>With over 30 years of experience, our teams have
-                    established a deep-rooted bond and excellent working relationship with all leading retailers and
-                    end customers.</p>
-
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 mt-2">
-          <div class="card text-white whychooseusimg">
-            <div class="flip-cardt">
-              <div class="flip-card-innert">
-                <div class="flip-card-frontt">
                   <p>We’ve strong Infrastructure</p>
                 </div>
-                <div class="flip-card-backt">
-
-                  <p>Our expansive logistics infrastructure ensures that our supply
+                <div class="flip-card-backs">
+                    <p>Our expansive logistics infrastructure ensures that our supply
                     chain works clockwise and efficiently making timely deliveries for our rapidly growing network of
                     retail partners.</p>
-
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 mt-2">
           <div class="card text-white whychooseusimg">
-            <div class="flip-cardl">
-              <div class="flip-card-innerl">
-                <div class="flip-card-frontl">
+            <div class="flip-cardf">
+              <div class="flip-card-innerf">
+                <div class="flip-card-frontf">
                   <p>We’re financially stable</p>
                 </div>
-                <div class="flip-card-backl">
-
+                <div class="flip-card-backf">
                   <p>BCPL, as an integral part of the Bahety Group of Companies, is
                     independently funded. Therefore, have the financial muscle to invest in creating brand visibility
                     and awareness based on merit and global demand.</p>
-
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
+        
       </div>
     </div>
 
@@ -601,12 +584,12 @@
       </div>
     </div>
     <div class="container-fluid bg-white text-black">
-    <div class="row text-center p-3">
-      <div class="col-md-4 wfoot">Copyright 2021</div>
-      <div class="col-md-4 wfoot">Rights reserved by Beauty Concepts</div>
-      <div class="col-md-4 wfoot"> <a href="https://www.roots-and-stalks.com/" target="_blank"> Powered by Roots and Stalks Digital</a></div>
+      <div class="row text-center p-3">
+        <div class="col-md-4 wfoot">Copyright 2021</div>
+        <div class="col-md-4 wfoot">Rights reserved by Beauty Concepts</div>
+        <div class="col-md-4 wfoot"> <a href="https://www.roots-and-stalks.com/" target="_blank"> Powered by Roots and Stalks Digital</a></div>
+      </div>
     </div>
-  </div>
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
@@ -708,10 +691,10 @@
     </script>
     <script>
       var video = document.querySelector('.video-js'),
-          volume = document.querySelector('#volume');
+        volume = document.querySelector('#volume');
       console.log(volume);
 
-      volume.addEventListener('change', function(e){
+      volume.addEventListener('change', function(e) {
         video.volume = e.currentTarget.value / 100;
       });
     </script>

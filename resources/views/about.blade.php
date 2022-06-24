@@ -1331,8 +1331,8 @@
         <div class="col-md-6"><img src="{{url('pictures/about/vision.jpg')}}" class="img-vi" alt=""></div>
       </div>
       <div class="row mt-5">
-        <div class="col-md-6"><img src="{{url('pictures/about/mission.jpg')}}" class="img-mi" alt=""></div>
-        <div class="col-md-6 ">
+        <div class="col-md-6" id="midiv"><img src="{{url('pictures/about/mission.jpg')}}" class="img-mi" alt=""></div>
+        <div class="col-md-6" id="mtdiv">
           <h1>Mission</h1>
           <p>Becoming India’s Leading Distribution House for Lifestyle & Fashion Accessories
             <br><br>
