@@ -30,6 +30,11 @@ const store = () => {
 
 
 const storeCity = () => {
+    $.ajaxSetup({
+        headers: {
+          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+     });
     var hostname = $(location).attr('protocol');
     const StoreValue = $("#store").val();
     const CityValue = $("#storeCity").val();
@@ -47,6 +52,7 @@ const storeCity = () => {
         url: hostname + "api/store/",
         type: "post",
         data: data,
+        
         success: function (res) {
             $(".store").empty();
             $(".iframe").empty();

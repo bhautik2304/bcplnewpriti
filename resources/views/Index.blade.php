@@ -43,6 +43,8 @@
       <div class="overlay"></div>
       <div id="audio-control" class=" mute-btn muted"><i onclick="myFunction(this)" class="fa-solid fa-volume-mute"></i>
       </div>
+      <input id="volume" class="volume-btn" type="range"></input>
+      <!-- <div><input id="volume" type="range"></input> </div> -->
 
       <!-- The HTML5 video element that will create the background video on the header -->
       <video playsinline="playsinline" id="myVideo" autoplay muted preload="yes" loop="loop" class="video-js" data-setup='{"autoplay":"any"}'>
@@ -185,6 +187,7 @@
       <div class="row knowusallcontent">
         <div class="col-md-6 col-sm-12 mb-3">
           <p class="knowushead">Know About Us</p>
+          
           <p class="knowuscontent">
             BCPL - BEAUTY CONCEPTS, established in the year 1998 is an integral part of the Bahety Group of
             Companies. With a brand portfolio of over 100+ brands, BCPL is the preferred partner for international
@@ -702,6 +705,15 @@
       function myFunction(x) {
         x.classList.toggle("fa-volume-up");
       }
+    </script>
+    <script>
+      var video = document.querySelector('.video-js'),
+          volume = document.querySelector('#volume');
+      console.log(volume);
+
+      volume.addEventListener('change', function(e){
+        video.volume = e.currentTarget.value / 100;
+      });
     </script>
 
     <!-- -------------------------------------- -->

@@ -62,6 +62,17 @@ header .overlay {
     color: #fff;
 }
 
+.volume-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 92.7%;
+    right: 60px;
+    z-index: 3;
+    color: #fff;
+}
+
+
+
 .nav-links {
     list-style: none;
     display: flex;
