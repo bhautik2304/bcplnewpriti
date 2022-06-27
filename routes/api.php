@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/store',[storelocator::class,'index']);
+Route::get('/store',[storelocator::class,'index']);
 Route::post('/contactus',[contactus::class,'index']);
 Route::post('/city',[storelocator::class,'storeCity']);
 

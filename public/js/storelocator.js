@@ -50,7 +50,7 @@ const storeCity = () => {
     };
     $.ajax({
         url: hostname + "api/store/",
-        type: "post",
+        type: "get",
         data: data,
         
         success: function (res) {

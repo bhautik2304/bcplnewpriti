@@ -2515,7 +2515,9 @@ input[type=checkbox] {
 
   .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 150px;
+    right: -100px;
+    top: 30px;
     background-color: #fff;
     color: #000;
     text-align: center;
@@ -2529,29 +2531,27 @@ input[type=checkbox] {
   .dot .tooltiptext::after {
     content: "";
     position: absolute;
-    bottom: 100%;
-    left: 30%;
     margin-left: -5px;
     border-width: 5px;
-    /* border-radius: 50px; */
-    /* border-style: solid; */
-    /* border-color: transparent transparent black transparent; */
   }
-
 
   .dot:hover .tooltiptext {
     visibility: visible;
   }
 
+  
+  .tooltiptext h5{
 
+    font-weight: bold;
+    font-size: 13px;
 
+}
 
+.tooltiptext p{
 
+    font-size: 10px;
 
-
-
-
-
+}
 
 
 #map {
@@ -2870,6 +2870,7 @@ input[type=checkbox] {
     
     }
 
+   
     
 
 }

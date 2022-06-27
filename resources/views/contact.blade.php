@@ -97,27 +97,104 @@
             <img src="/pictures/bcpl/map bcpl.png" width="100%" alt="Map">
           </div>
           <div id="dots">
-            <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
-            <div class="dot dot-2"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
-            <div class="dot dot-3"><img src="/pictures/bcpl/beauty scentiments.svg" /><span class="tooltiptext">Beauty Scentiments</span></div>
-            <div class="dot dot-4"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
-            <div class="dot dot-5"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
-            <div class="dot dot-6"><img src="/pictures/bcpl/maison de parfums.svg" /><span class="tooltiptext">Maison des parfums</span></div>
-            <div class="dot dot-20"><img src="/pictures/bcpl/beaute luxe.svg" /><span class="tooltiptext">Beaute luxe</span></div>
-            <div class="dot dot-7"><img src="/pictures/bcpl/beauty scentiments.svg" /><span class="tooltiptext">Beauty Scentiments</span></div>
-            <div class="dot dot-8"><img src="/pictures/bcpl/beaute luxe.svg" /><span class="tooltiptext">Beaute luxe</span></div>
-            <div class="dot dot-9"><img src="/pictures/bcpl/maison de parfums.svg" /><span class="tooltiptext">Maison des parfums</span></div>
-            <div class="dot dot-10"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
-            <div class="dot dot-11"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
-            <div class="dot dot-12"><img src="/pictures/bcpl/beauty scentiments.svg" /><span class="tooltiptext">Beauty Scentiments</span></div>
-            <div class="dot dot-13"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
-            <div class="dot dot-14"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
-            <div class="dot dot-15"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
-            <div class="dot dot-16"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
-            <div class="dot dot-17"><img src="/pictures/bcpl/warehouse.svg" /><span class="tooltiptext">Warehouse</span></div>
-            <div class="dot dot-18"><img src="/pictures/bcpl/office.svg" /><span class="tooltiptext">Office</span></div>
-            <div class="dot dot-19"><img src="/pictures/bcpl/beaute luxe.svg" /><span class="tooltiptext">Beaute luxe</span></div>
-            
+            <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" />
+            <span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-2"><img src="/pictures/bcpl/office.svg" />
+            <span class="tooltiptext">Office</span></div>
+            <div class="dot dot-3"><img src="/pictures/bcpl/beauty scentiments.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beauty Scentiments</h5>
+                <!-- <hr/>
+                <p>
+                </p> -->
+              </span>
+            </div>
+            <div class="dot dot-4"><img src="/pictures/bcpl/warehouse.svg" />
+            <span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-5"><img src="/pictures/bcpl/office.svg" />
+            <span class="tooltiptext">Office</span></div>
+            <div class="dot dot-6"><img src="/pictures/bcpl/maison de parfums.svg" />
+
+              <span class="tooltiptext p-2">
+                <h5>Maison des parfums</h5>
+                <hr />
+                <p><b>(1)</b>&nbsp; PALLADIUM MUMBAI
+                  ,F-15A, 1st Floor, Palladium Mall, Lower Parel,Mumbai - 400013</p>
+
+                <p><b>(2)</b> &nbsp;JIO WORLD DRIVE
+                  ,F-32, 1st Floor, Jio World Drive Mall, Bandra Kurla Complex, Bandra East, Mumbai - 400051</p>
+
+              </span>
+
+            </div>
+            <div class="dot dot-20"><img src="/pictures/bcpl/beaute luxe.svg" />
+            <span class="tooltiptext">Beaute luxe</span></div>
+            <div class="dot dot-7"><img src="/pictures/bcpl/beauty scentiments.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beauty Scentiments</h5>
+                <!-- <hr/>
+                <p>SELECT CITY WALK
+                  G – 55, Ground Floor, Select City Walk, New Delhi -
+                </p> -->
+              </span>
+            </div>
+            <div class="dot dot-8"><img src="/pictures/bcpl/beaute luxe.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beaute Luxe</h5>
+                <hr />
+                <p>Kochi:
+                  Shop No 8, Domestic Departure Terminal,
+                  Cochin International Airport Limited,
+                  Aluva, Ernkulam, Kerala - 683111
+                </p>
+              </span>
+            </div>
+            <div class="dot dot-9"><img src="/pictures/bcpl/maison de parfums.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Maison Des Parfums</h5>
+                <hr />
+                <p>SELECT CITY WALK
+                  ,G – 55, Ground Floor, Select City Walk, New Delhi - 110017
+                </p>
+              </span>
+            </div>
+            <div class="dot dot-10"><img src="/pictures/bcpl/office.svg" />
+              <span class="tooltiptext">Office</span>
+            </div>
+            <div class="dot dot-11"><img src="/pictures/bcpl/warehouse.svg" />
+            <span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-12"><img src="/pictures/bcpl/beauty scentiments.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beauty Scentiments</h5>
+                <hr />
+                <p>VR MALL NAGPUR
+                  ,VR Mall unit no. K03 Upper Ground Floor Medical Square Nagpur : 440003
+                </p>
+              </span>
+            </div>
+            <div class="dot dot-13"><img src="/pictures/bcpl/warehouse.svg" />
+            <span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-14"><img src="/pictures/bcpl/office.svg" />
+            <span class="tooltiptext">Office</span></div>
+            <div class="dot dot-15"><img src="/pictures/bcpl/warehouse.svg" />
+            <span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-16"><img src="/pictures/bcpl/office.svg" />
+            <span class="tooltiptext">Office</span></div>
+            <div class="dot dot-17"><img src="/pictures/bcpl/warehouse.svg" />
+            <span class="tooltiptext">Warehouse</span></div>
+            <div class="dot dot-18"><img src="/pictures/bcpl/office.svg" />
+            <span class="tooltiptext">Office</span></div>
+            <div class="dot dot-19"><img src="/pictures/bcpl/beaute luxe.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beaute Luxe</h5>
+                <hr />
+                <p>Kolkata:
+                  Domestic Airport
+                  Jessore Rd, Dum Dum, Kolkata, West Bengal
+                </p>
+              </span>
+            </div>
+
           </div>
         </div>
         <div class="row">
