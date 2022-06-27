@@ -2571,7 +2571,7 @@ input[type=checkbox] {
 
 
 .dot img {
-    width: 18px;
+    width: 14px;
 }
 
 .dot-1 {
@@ -2579,13 +2579,13 @@ input[type=checkbox] {
     left: 20.5%;
 }
 
-.dot-2 {
+.dot-3 {
     top: 38%;
     left: 27%;
 
 }
 
-.dot-3 {
+.dot-2 {
     top: 35%;
     left: 23.5%;
 
@@ -2630,21 +2630,21 @@ input[type=checkbox] {
 
 .dot-9 {
     top: 17%;
-    left: 35%;
+    left: 36%;
 
 
 }
 
 .dot-10 {
     top: 17%;
-    left: 40%;
+    left: 41%;
 
 
 }
 
 .dot-11 {
     top: 15%;
-    left: 37.5%;
+    left: 38.5%;
 
 
 }
@@ -2652,9 +2652,28 @@ input[type=checkbox] {
 .dot-12 {
     top: 43%;
     left: 48%;
-
-
 }
+
+.dot-21 {
+    top: 25.5%;
+    left: 33%;
+}
+
+.dot-22 {
+    top: 24.5%;
+    left: 50%;
+}
+
+.dot-23 {
+    top: 54%;
+    left: 31.5%;
+}
+
+.dot-24 {
+    top: 13%;
+    left: 32%;
+}
+
 
 .dot-13 {
     top: 54.5%;
@@ -2743,13 +2762,13 @@ input[type=checkbox] {
         left: 20.5%;
     }
     
-    .dot-2 {
+    .dot-3 {
         top: 36.5%;
         left: 27%;
     
     }
     
-    .dot-3 {
+    .dot-2 {
         top: 33.5%;
         left: 23.5%;
     
@@ -2790,21 +2809,21 @@ input[type=checkbox] {
     
     .dot-9 {
         top: 15.5%;
-        left: 35%;
+        left: 36%;
     
     
     }
     
     .dot-10 {
         top: 15.5%;
-        left: 40%;
+        left: 41%;
     
     
     }
     
     .dot-11 {
         top: 13.5%;
-        left: 37.5%;
+        left: 38.5%;
     
     
     }
@@ -2815,7 +2834,26 @@ input[type=checkbox] {
     
     
     }
+
+    .dot-21 {
+        top: 24%;
+        left: 33%;
+    }
     
+    .dot-22 {
+        top: 23%;
+        left: 50%;
+    }
+
+    .dot-23 {
+        top: 52.5%;
+        left: 31.5%;
+    }
+    .dot-24 {
+        top: 11.5%;
+        left: 32%;
+    }
+        
     .dot-13 {
         top: 53%;
         left: 41%;
@@ -2865,7 +2903,7 @@ input[type=checkbox] {
     }
     
     .dot-20 {
-        top: 45.5%;
+        top: 50%;
         left: 27%;
     
     }

@@ -98,21 +98,48 @@
           </div>
           <div id="dots">
             <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" />
-            <span class="tooltiptext">Warehouse</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Warehouse</h5>
+                <hr />
+                <p>Block No.209,NH.No 08, Jasmine Agro Industries Compound, Behind Prakash Petrol Pump, Jetalpur, Ahmedabad-382426
+                </p>
+              </span>
+            </div>
             <div class="dot dot-2"><img src="/pictures/bcpl/office.svg" />
-            <span class="tooltiptext">Office</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Office</h5>
+                <hr />
+                <p>Block No.209,NH.No 08, Jasmine Agro Industries Compound, Behind Prakash Petrol Pump, Jetalpur, Ahmedabad-382426
+                </p>
+              </span>
+            </div>
             <div class="dot dot-3"><img src="/pictures/bcpl/beauty scentiments.svg" />
               <span class="tooltiptext p-2">
                 <h5>Beauty Scentiments</h5>
-                <!-- <hr/>
-                <p>
-                </p> -->
+                <hr />
+                <p>INORBIT MALL – VADODARA
+                  Ground Floor Alembic Rd, Opposite to Alembic School, Gorwa, Vadodara, Gujarat 390023
+                </p>
               </span>
             </div>
             <div class="dot dot-4"><img src="/pictures/bcpl/warehouse.svg" />
-            <span class="tooltiptext">Warehouse</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Warehouse</h5>
+                <hr />
+                <p>H.No.1433, 1st flr, Munisurat Compound, Nr. Aadinath Compound, Rahnal, Bhiwandi, Thane, Maharashtra - 421302
+                </p>
+              </span>
+            </div>
             <div class="dot dot-5"><img src="/pictures/bcpl/office.svg" />
-            <span class="tooltiptext">Office</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Office</h5>
+                <hr />
+                <p><b>(1)</b>&nbsp;D -1902, Lotus Corporate Park, Near Jai Coach compound, off Western Express Highway, Goregaon,(East) Mumbai 400063
+                </p>
+                <p><b>(2)</b>&nbsp;Techno IT Park, 7th Floor, Office No. 709-710, Near SK Resorts, Opp. Eksar Metro Station, Link Road, Borivali (West), Mumbai – 400092
+                </p>
+              </span>
+            </div>
             <div class="dot dot-6"><img src="/pictures/bcpl/maison de parfums.svg" />
 
               <span class="tooltiptext p-2">
@@ -128,7 +155,8 @@
 
             </div>
             <div class="dot dot-20"><img src="/pictures/bcpl/beaute luxe.svg" />
-            <span class="tooltiptext">Beaute luxe</span></div>
+              <span class="tooltiptext">Beaute luxe</span>
+            </div>
             <div class="dot dot-7"><img src="/pictures/bcpl/beauty scentiments.svg" />
               <span class="tooltiptext p-2">
                 <h5>Beauty Scentiments</h5>
@@ -159,10 +187,21 @@
               </span>
             </div>
             <div class="dot dot-10"><img src="/pictures/bcpl/office.svg" />
-              <span class="tooltiptext">Office</span>
+              <span class="tooltiptext p-2">
+                <h5>Office</h5>
+                <hr />
+                <p>A-163/1, H.K. House, 1st Floor, Lado Sarai, New Delhi 110030, India
+                </p>
+              </span>
             </div>
             <div class="dot dot-11"><img src="/pictures/bcpl/warehouse.svg" />
-            <span class="tooltiptext">Warehouse</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Warehouse</h5>
+                <hr />
+                <p>F-4, Phase-1, Okhla Industrial Area, New Delhi, South Delhi, Delhi, 110020
+                </p>
+              </span>
+            </div>
             <div class="dot dot-12"><img src="/pictures/bcpl/beauty scentiments.svg" />
               <span class="tooltiptext p-2">
                 <h5>Beauty Scentiments</h5>
@@ -172,18 +211,86 @@
                 </p>
               </span>
             </div>
+            <div class="dot dot-21"><img src="/pictures/bcpl/beauty scentiments.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beauty Scentiments</h5>
+                <hr />
+                <p>JAIPUR WTC Mall 2nd floor near Opposite Cinepolis, Jawahar Lal Nehru Marg, D -bloc, Malviya Nagar, Jaipur , Rajasthan 302017
+                </p>
+              </span>
+            </div>
+            <div class="dot dot-22"><img src="/pictures/bcpl/beauty scentiments.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beauty Scentiments</h5>
+                <hr />
+                <p>KANPUR Z Square Mall, Ground floor behind life style store, Civil Lines, Kanpur, uttar Pardesh 208001.
+                </p>
+              </span>
+            </div>
+            <div class="dot dot-23"><img src="/pictures/bcpl/beauty scentiments.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beauty Scentiments</h5>
+                <hr />
+                <p>PUNE SGS Mall Pune Ground floor Next to Sugar Kiosk, 23, Moledina Road,Camp, Pune Maharashtra 411001
+                </p>
+              </span>
+            </div>
+            <div class="dot dot-24"><img src="/pictures/bcpl/beauty scentiments.svg" />
+              <span class="tooltiptext p-2">
+                <h5>Beauty Scentiments</h5>
+                <hr />
+                <p>AMRITSAR Mall of Amritsar MBM Farms, G.T road, Rajinder Nagar, Amritsar, Maqbool Pura, Amritsar Punjab :143 001.
+                </p>
+              </span>
+            </div>
             <div class="dot dot-13"><img src="/pictures/bcpl/warehouse.svg" />
-            <span class="tooltiptext">Warehouse</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Warehouse</h5>
+                <hr />
+                <p>3-4-616/1, Ground Floor ,Street No .7, Narayanaguda, Hyderabad 500029
+                </p>
+              </span>
+            </div>
             <div class="dot dot-14"><img src="/pictures/bcpl/office.svg" />
-            <span class="tooltiptext">Office</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Office</h5>
+                <hr />
+                <p>3-4-616/1, Ground Floor ,Street No .7, Narayanaguda, Hyderabad 500029
+                </p>
+              </span>
+            </div>
             <div class="dot dot-15"><img src="/pictures/bcpl/warehouse.svg" />
-            <span class="tooltiptext">Warehouse</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Warehouse</h5>
+                <hr />
+                <p>No. 1 - 7, Carmel Complex, Hennur Main Road, Geddelahalli, Kothanur Post, Bangalore - 560077, Karnataka
+                </p>
+              </span>
+            </div>
             <div class="dot dot-16"><img src="/pictures/bcpl/office.svg" />
-            <span class="tooltiptext">Office</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Office</h5>
+                <hr />
+                <p>NBR Tulip, 1st Floor, 45 & 46, 17th A-Main, Indiranagar, HAL 2nd Stage, Bangalore – 560008
+                </p>
+              </span>
+            </div>
             <div class="dot dot-17"><img src="/pictures/bcpl/warehouse.svg" />
-            <span class="tooltiptext">Warehouse</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Warehouse</h5>
+                <hr />
+                <p>21-5, OLD NIMTA ROAD, BELGHARIA, North 24 Parganas, North 24 Parganas 700056, West Bengal
+                </p>
+              </span>
+            </div>
             <div class="dot dot-18"><img src="/pictures/bcpl/office.svg" />
-            <span class="tooltiptext">Office</span></div>
+              <span class="tooltiptext p-2">
+                <h5>Office</h5>
+                <hr />
+                <p>Vardaan 403, 25A Camac Street, Kolkata 700016, India
+                </p>
+              </span>
+            </div>
             <div class="dot dot-19"><img src="/pictures/bcpl/beaute luxe.svg" />
               <span class="tooltiptext p-2">
                 <h5>Beaute Luxe</h5>
@@ -194,6 +301,7 @@
                 </p>
               </span>
             </div>
+            
 
           </div>
         </div>

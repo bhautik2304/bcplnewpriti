@@ -13,10 +13,10 @@ const store = () => {
         success: function (res) {
             $(".store").empty();
             if (res.length == 0) {
-                $(".store").append("<h1><center>we are coming soon</center></h1>");
+                $(".store").append("<h1><center>We are coming soon</center></h1>");
                 return null
             }
-            $(".store").append("<h1><center>pls select Your city</center></h1>");
+            $(".store").append("<h1><center>Please select your city</center></h1>");
             var html2 = "<option selected value='0' >City</option>"
             $(".appendcity").append(html2);
             for (var i = 0; i < res.city.length; i++) {
@@ -41,7 +41,7 @@ const storeCity = () => {
     if (CityValue == 0) {
         $(".store").empty();
         $(".iframe").empty();
-        $(".store").append("<h1><center>Pls Select Your City</center></h1>")
+        $(".store").append("<h1><center>Please select your city</center></h1>")
         return null
     }
     var data = {
@@ -57,7 +57,7 @@ const storeCity = () => {
             $(".store").empty();
             $(".iframe").empty();
             if (res.store.length == 0) {
-                $(".store").append("<h1><center>we are coming soon</center></h1>");
+                $(".store").append("<h1><center>We are coming soon</center></h1>");
                 $(".iframes").show();
                 return null
             }
