@@ -13,10 +13,29 @@ class PageController extends Controller
         return view('about');
     }
 
+    public function Prestige(Request $request) {
+
+        return view('Brands.Prestige-brands');
+    }
+    public function Popular(Request $request) {
+
+        return view('Brands.Popular-brands');
+    }
+    public function Lifestyle(Request $request) {
+
+        return view('Brands.Lifestyle-brands');
+    }
+    public function Fashion(Request $request) {
+
+        return view('Brands.Fashion-brands');
+    }
+
     public function Brands(Request $request) {
 
         return view('brands');
     }
+
+
     public function Index(Request $request) {
 
         return view('Index');

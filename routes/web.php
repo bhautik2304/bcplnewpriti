@@ -26,6 +26,10 @@ Route::get('/contact', [ContactUsFormController::class, 'createForm'])->name('cr
 Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
 Route::get('/about', [PageController::class, 'AboutPage'])->name('about');
 Route::get('/Brands', [PageController::class, 'Brands'])->name('Brands');
+Route::get('/prestige', [PageController::class, 'Prestige'])->name('Prestige');
+Route::get('/popular', [PageController::class, 'Popular'])->name('Popular');
+Route::get('/lifestyle', [PageController::class, 'Lifestyle'])->name('Lifestyle');
+Route::get('/fashion', [PageController::class, 'Fashion'])->name('Fashion');
 Route::get('/', [PageController::class, 'Index'])->name('Index');
 Route::get('/Maisondeperfums', [PageController::class, 'Maisondeperfums'])->name('Maisondeperfums');
 Route::get('/Retail', [PageController::class, 'Retail'])->name('Retail');
