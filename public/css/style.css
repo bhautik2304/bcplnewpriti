@@ -130,7 +130,7 @@ nav ul .centermenu img {
 
 
 .allnav li .active {
-    color: green;
+    color: blue;
 }
 
 @media screen and (max-width:5000px) {
@@ -363,7 +363,7 @@ nav ul .centermenu img {
 }
 
 .allnav li a:hover {
-    color: #FF1178;
+    color: Blue;
 }
 
 
@@ -1619,8 +1619,60 @@ input[type=checkbox] {
     }
 }
 
+/* ************************Brandpage banner************************** */
 
 
+.brand-banner{
+    
+    align-items: center ;
+}
+
+.brand-bg{
+    background: url('/pictures/brand-m.png') no-repeat center;
+}
+
+.b-child h1{
+
+    font-size: 70px;
+    font-weight: bold;
+    font-family: montserrat, sans-serif !important;
+    /* text-align: center; */
+}
+
+@media screen and (max-width:1199px) {
+    .b-child h1{
+
+        font-size: 50px;
+        /* text-align: center; */
+    }   
+}
+
+@media screen and (max-width:991px) {
+    .b-child h1{
+
+        font-size: 40px;
+        /* text-align: center; */
+    }   
+}
+
+@media screen and (max-width:767px) {
+    .b-child h1{
+
+        margin-top: 20px;
+        font-size: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }   
+}
+
+@media screen and (max-width:575px) {
+    .b-child h1{
+
+        font-size: 35px;
+        padding-bottom: 10px;
+        text-align: center;
+    }   
+}
 
 
 

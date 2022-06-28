@@ -89,8 +89,6 @@
 
 
 
-
-
   <div class="container mt-5">
     <p class="leadingbrands">A LEADING DISTRIBUTOR OF GLOBAL BRANDS</p>
     <p>BCPL - BEAUTY CONCEPTS, established in the year 1998 is a member of the Bahety Group of Companies. With a brand
@@ -1490,6 +1488,9 @@
       },
     });
   </script>
+
+
+
 
 
 </body>

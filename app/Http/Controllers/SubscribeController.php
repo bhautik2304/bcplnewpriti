@@ -41,7 +41,7 @@ class SubscribeController extends Controller
         $subscribeuser->email=$req->email;
         $subscribeuser->save();
 
-        return response(["msg"=>"Thakyou For Subscribe"],200);
+        return response(["msg"=>"You have successfully subscribed to our newsletter"],200);
         
     }
 
