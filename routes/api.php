@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\{contactus,StoreController,CityController,MapController,StoreaddressController};
+use App\Http\Controllers\{contactus,StoreController,CityController,MapController,StoreaddressController,SubscribeController};
 use App\Http\Controllers\storelocator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -29,3 +29,4 @@ Route::resource('stores', StoreController::class);
 Route::resource('citys', CityController::class);
 Route::resource('maps', MapController::class);
 Route::resource('address', StoreaddressController::class);
+Route::resource('subscribe', SubscribeController::class);

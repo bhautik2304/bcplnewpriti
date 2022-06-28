@@ -110,6 +110,7 @@
                   <p class="mt-3">Subscribe to our newsletter</p>
                   <input type="email" class="femail" id="sub" placeholder="Email to...." /><br />
                   <button class="fbtn" onclick="subscribe()">Subscribe</button>
+                  <span class="sucees"></span>
                 </div>
               </div>
             </div>
