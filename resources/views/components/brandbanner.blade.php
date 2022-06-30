@@ -12,17 +12,17 @@
 <div class="container-fluid brand-bg">
     <div class="container">
         <div class="brand-banner  row">
-            <div class="b-child col-lg-5 col-md-5"><h1>Our Brands</h1></div>
-            <div class="b-child col-lg-7 col-md-7 ">
+            <div class="b-child col-lg-6 col-md-6"><h1>Our Brands</h1></div>
+            <div class="b-child col-lg-6 col-md-6 ">
                 <div class="owl-carousel owl-theme slidercardbrand">
-                    <div class="item">
+                    <div class="item p-4">
                       <img src="pictures/brand-b1.png" alt=""/>
                     </div>
-                    <div class="item">
+                    <div class="item pt-4">
                         <img src="pictures/brand-b2.png" alt=""/>
                     
                     </div>
-                    <div class="item">
+                    <div class="item p-4">
                       <img src="pictures/brand-b3.png" alt=""/>
                     
                     </div>
