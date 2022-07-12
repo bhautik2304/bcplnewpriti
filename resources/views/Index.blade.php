@@ -79,8 +79,8 @@
                                     <a href="{{route('Maisondeperfums')}}" class="leftmenu">MAISON DES PARFUMS</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('Index')}}" class="centermenu"><img
-                                            src="pictures/home-white-logo.png" alt="" /></a>
+                                    <a href="{{route('Index')}}" class="centermenu"><img src="pictures/logowhite2.png"
+                                            alt="" /></a>
                                 </li>
                                 <li><a href="{{route('Retail')}}" class="rightmenu">RETAIL</a></li>
                                 <li>
