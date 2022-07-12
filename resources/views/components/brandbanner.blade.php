@@ -29,7 +29,7 @@
                     <div class="item p-4">
                         <img src="pictures/brand-bb1.png" alt="" />
                     </div>
-                    <div class="item pt-4">
+                    <div class="item ps-4 pe-4 " style="padding-top:35px;">
                         <img src="pictures/brand-bb2.png" alt="" />
 
                     </div>
