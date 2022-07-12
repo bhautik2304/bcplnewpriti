@@ -7,7 +7,7 @@
     <title>Brands</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <link rel="stylesheet" href="{{ url('css/style.css') }}" />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -30,8 +30,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     {{-- jquery cdn link --}}
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -82,7 +82,7 @@
                                 <a class="nav-link text-black" href="{{ route('Brands') }}">BRANDS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-black"  href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
+                                <a class="nav-link text-black" href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-black" href="{{ route('Retail') }}">RETAIL</a>
@@ -109,13 +109,14 @@
                 <div class="wrapper mt-3 mb-5">
                     <div class="st">
                         <label class="storelabel">
-                        <select onchange="store()" id="store" class="form-select form-store" aria-label="Default select example">
-                         <option selected value="0">Store</option>
+                            <select onchange="store()" id="store" class="form-select form-store"
+                                aria-label="Default select example">
+                                <option selected value="0">Store</option>
 
 
                                 <!---   store data   --->
                                 @foreach ($storedata as $store)
-                                    <option value="{{ $store->id }}">{{ $store->name }}</option>
+                                <option value="{{ $store->id }}">{{ $store->name }}</option>
                                 @endforeach
                                 <!---   store data   --->
 
@@ -125,8 +126,9 @@
                     </div>
                     <div class="st">
                         <label class="storelabel-2">
-                        <select onchange="storeCity()" id="storeCity" class="form-select form-store appendcity" aria-label="Default select example">
-                               <option selected value="0" >City</option>
+                            <select onchange="storeCity()" id="storeCity" class="form-select form-store appendcity"
+                                aria-label="Default select example">
+                                <option selected value="0">City</option>
 
 
                                 <!---   city data   --->
@@ -145,7 +147,28 @@
 
                     <!--------- Your Store Data-------->
 
-                    <div class="scroll-page store"></div>
+                    <div class="scroll-page store">
+                        <p><b>SELECT CITY WALK</b></p>
+
+                        <p>G – 55, Ground Floor, Select City Walk, New Delhi - 110017</p>
+
+                        <p><b>PALLADIUM MUMBAI</b></p>
+
+                        <p>F-15A, 1st Floor, Palladium Mall, Lower Parel, Mumbai - 400013</p>
+
+                        <p> <b>JIO WORLD DRIVE</b></p>
+
+                        <p>F-32, 1st Floor, Jio World Drive Mall, Bandra Kurla Complex, Bandra East, Mumbai - 400051</p>
+
+                        <p><b>BEAUTE LUXE, KOLKATA:</b></p>
+
+                        <p>Domestic Airport ,Jessore Rd, Dum Dum, Kolkata, West Bengal</p>
+
+                        <p><b>BEAUTE LUXE, MUMBAI</b></p>
+
+                        <p>Gr Floor, Inorbit Mall, New Link Rd, Malad West, Mumbai, Maharashtra 400064</p>
+
+                    </div>
 
                     <!--------- Your Store Data-------->
                 </div>
@@ -154,11 +177,14 @@
             <!-------------map ifram--------------->
             <div class="col-lg-6">
                 <div class="iframes">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.3748146587704!2d77.21678531409329!3d28.528451695536855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce18b191c94cd%3A0x85c0f34afdd33a5f!2sMaison%20des%20Parfums!5e0!3m2!1sen!2sin!4v1654511375707!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
-              <div class="iframe">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.3748146587704!2d77.21678531409329!3d28.528451695536855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce18b191c94cd%3A0x85c0f34afdd33a5f!2sMaison%20des%20Parfums!5e0!3m2!1sen!2sin!4v1654511375707!5m2!1sen!2sin"
+                        width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="iframe">
 
-              </div>
+                </div>
             </div>
 
 
@@ -169,8 +195,8 @@
 
     <!-- footer -->
 
-    <x-footer/>
-  <script type="text/javascript" src="{{url('js/storelocator.js')}}"></script>
+    <x-footer />
+    <script type="text/javascript" src="{{url('js/storelocator.js')}}"></script>
 </body>
 
 </html>
