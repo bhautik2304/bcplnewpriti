@@ -27,14 +27,14 @@
             <div class="b-child col-lg-6 col-md-6 ">
                 <div class="owl-carousel owl-theme slidercardbrand">
                     <div class="item p-4">
-                        <img src="pictures/brand-b5.png" alt="" />
+                        <img src="pictures/brand-bb1.png" alt="" />
                     </div>
                     <div class="item pt-4">
-                        <img src="pictures/brand-b7.png" alt="" />
+                        <img src="pictures/brand-bb2.png" alt="" />
 
                     </div>
                     <div class="item p-5">
-                        <img src="pictures/brand-b3.png" alt="" />
+                        <img src="pictures/brand-bb3.png" alt="" />
 
                     </div>
                 </div>
