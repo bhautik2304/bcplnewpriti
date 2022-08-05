@@ -46,9 +46,9 @@ class PageController extends Controller
         return view('Maisondeperfums');
     }
 
-    public function Retail(Request $request) {
+    public function Ourstores(Request $request) {
 
-        return view('Retail');
+        return view('Ourstores');
     }
 
 

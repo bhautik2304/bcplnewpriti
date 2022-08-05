@@ -33,12 +33,12 @@
           <li><a href="{{route('about')}}" class="leftmenu active">ABOUT US</a></li>
           <li><a href="{{route('Brands')}}" class="leftmenu ">BRANDS</a></li>
           <li>
-            <a href="{{route('Maisondeperfums')}}" class="leftmenu">MAISON DE PARFUMS</a>
+            <a href="{{route('Maisondeperfums')}}" class="leftmenu">MAISON DES PARFUMS</a>
           </li>
           <li>
             <a href="{{route('Index')}}" class="centermenu"><img src="pictures/logoblack.png" alt="" /></a>
           </li>
-          <li><a href="{{route('Retail')}}" class="rightmenu">RETAIL</a></li>
+          <li><a href="{{route('Ourstores')}}" class="rightmenu">OUR STORES</a></li>
           <li>
             <a href="{{ route('createForm') }}" class="rightmenu">CONTACT US</a>
           </li>
@@ -66,10 +66,10 @@
                 <a class="nav-link text-black" href="{{route('Brands')}}">BRANDS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
+                <a class="nav-link text-black" href="{{route('Maisondeperfums')}}">MAISON DES PARFUMS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('Retail')}}">RETAIL</a>
+                <a class="nav-link text-black" href="{{route('Ourstores')}}">OUR STORES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-black" href="{{route('createForm')}}">CONTACT US</a>
@@ -90,11 +90,11 @@
 
 
   <div class="container mt-5">
-    <p class="leadingbrands">A LEADING DISTRIBUTOR OF GLOBAL BRANDS</p>
+    <p class="leadingbrands">Brand who Trust us</p>
     <p>BCPL - BEAUTY CONCEPTS, established in the year 1998 is a member of the Bahety Group of Companies. With a brand
-      portfolio of over 40 brands, BCPL is the preferred partner for International brands foraying the emerging and
+      portfolio of over 100+ brands, BCPL is the preferred partner for International brands foraying the emerging and
       challenging Indian Market.<br><br>
-      After being in business for over 30 years, our team has established excellent bond with all the leading perfume
+      After being in business for across 4 decades, our team has established excellent bond with all the leading perfume
       and cosmetic retailers, providing our clients, brands and products with over 200 of the highest quality doors
       across the country. With growing accessibility and reach, we aim to bridge the gap between the brands and their
       target market.</p>
@@ -1352,7 +1352,7 @@
         <div class="col-md-6  pe-5 pt-2">
           <h1 class="csr">Corporate Social Responsibility</h1>
           <p>
-            We are Associated with “World Vision India”, an NGO that sponsors child education. Children from the
+            We are Associated with an NGO that sponsors child education. Children from the
             organisation can be later given employment in Beauty Concepts.
           </p>
         </div>
