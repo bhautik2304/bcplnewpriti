@@ -32,7 +32,7 @@ Route::get('/lifestyle', [PageController::class, 'Lifestyle'])->name('Lifestyle'
 Route::get('/fashion', [PageController::class, 'Fashion'])->name('Fashion');
 Route::get('/', [PageController::class, 'Index'])->name('Index');
 Route::get('/Maisondeperfums', [PageController::class, 'Maisondeperfums'])->name('Maisondeperfums');
-Route::get('/Retail', [PageController::class, 'Retail'])->name('Retail');
+Route::get('/Ourstores', [PageController::class, 'Ourstores'])->name('Ourstores');
 Route::get('/Storelocator', [PageController::class, 'Storelocator'])->name('Storelocator');
 
 Route::get('/mailable', function () {

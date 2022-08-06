@@ -42,12 +42,12 @@
           <li><a href="{{route('about')}}" class="leftmenu">ABOUT US</a></li>
           <li><a href="{{route('Brands')}}" class="leftmenu">BRANDS</a></li>
           <li>
-            <a href="{{route('Maisondeperfums')}}" class="leftmenu active">MAISON DE PARFUMS</a>
+            <a href="{{route('Maisondeperfums')}}" class="leftmenu active">MAISON DES PARFUMS</a>
           </li>
           <li>
             <a href="{{route('Index')}}" class="centermenu"><img src="pictures/logoblack.png" alt="" /></a>
           </li>
-          <li><a href="{{route('Retail')}}" class="rightmenu">RETAIL</a></li>
+          <li><a href="{{route('Ourstores')}}" class="rightmenu">OUR STORES</a></li>
           <li>
             <a href="{{ route('createForm') }}" class="rightmenu">CONTACT US</a>
           </li>
@@ -77,10 +77,10 @@
                 <a class="nav-link text-black" href="{{route('Brands')}}">BRANDS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black"  href="{{route('Maisondeperfums')}}">MAISON DE PARFUMS</a>
+                <a class="nav-link text-black"  href="{{route('Maisondeperfums')}}">MAISON DES PARFUMS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('Retail')}}">RETAIL</a>
+                <a class="nav-link text-black" href="{{route('Ourstores')}}">OUR STORES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-black" href="{{route('createForm')}}">CONTACT US</a>

@@ -34,16 +34,16 @@
                 <div class="col-lg-12 col-xm-6">
                   <div class="fabev">
                     <div class="ftheadevent">
-                      <span class="footheadevent">Retail</span>
+                      <span class="footheadevent">OUR STORES</span>
                     </div>
                     <div class="footdataaa">
-                      <a href="{{route('Retail')}}" class="fbrands">
+                      <a href="{{route('Ourstores')}}" class="fbrands">
                         <li>MDP</li>
                       </a>
-                      <a href="{{route('Retail')}}" class="fbrands">
+                      <a href="{{route('Ourstores')}}" class="fbrands">
                         <li>Beauty Luxe</li>
                       </a>
-                      <a href="{{route('Retail')}}" class="fbrands"><li>Beauty Scentiments</li></a>
+                      <a href="{{route('Ourstores')}}" class="fbrands"><li>Beauty Scentiments</li></a>
                     </div>
                   </div>
                 </div>

@@ -82,7 +82,7 @@
                                     <a href="{{route('Index')}}" class="centermenu">
                                         <img src="pictures/logowhite.png" alt="" /></a>
                                 </li>
-                                <li><a href="{{route('Retail')}}" class="rightmenu">RETAIL</a></li>
+                                <li><a href="{{route('Ourstores')}}" class="rightmenu">OUR STORES</a></li>
                                 <li>
                                     <a href="{{ route('createForm') }}" class="rightmenu">CONTACT US</a>
                                 </li>
@@ -118,7 +118,7 @@
                                                 DES PARFUMS</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="{{route('Retail')}}">RETAIL</a>
+                                            <a class="nav-link text-white" href="{{route('Ourstores')}}">OUR STORES</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link text-white" href="{{ route('createForm') }}">CONTACT
@@ -213,8 +213,7 @@
                         Companies. With a brand portfolio of over 100+ brands, BCPL is the preferred partner for
                         international
                         brands foraying into the emerging and challenging Indian Market. After being in business for
-                        over 30
-                        years.
+                        across 4 decades.
                         <br><br>
                         We are well equipped to build brands taking them to new heights of success with our excellent
                         business relationships, infrastructure, innovations, technological know-how, financial muscle
