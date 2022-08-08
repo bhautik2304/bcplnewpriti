@@ -140,7 +140,9 @@
         <!-- Main Content Area -->
 
         <div class="container mt-5">
-            <p class="text-center brandhead">Brands who trust us</p>
+            <p class="text-center " style="color: #707070;
+    font-size: 30px;
+    font-family: montserrat, sans-serif !important;">A LEADING DISTRIBUTOR OF GLOBAL BRANDS</p>
             <div class="owl-carousel owl-theme slidercard2 pb-2">
 
                 <div class="item ">
