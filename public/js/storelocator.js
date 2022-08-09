@@ -13,10 +13,10 @@ const store = () => {
         success: function (res) {
             $(".store").empty();
             if (res.length == 0) {
-                $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px;' ><center>We are coming soon</center></h1>");
+                $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px; font-weight:bold;' ><center>We are coming soon</center></h1>");
                 return null
             }
-            $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px;' ><center>Please select your city</center></h1>");
+            $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px; font-weight:bold;' ><center>Please select your city</center></h1>");
             var html2 = "<option selected value='0' >City</option>"
             $(".appendcity").append(html2);
             for (var i = 0; i < res.city.length; i++) {
@@ -41,7 +41,7 @@ const storeCity = () => {
     if (CityValue == 0) {
         $(".store").empty();
         $(".iframe").empty();
-        $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px;' ><center>Please select your city</center></h1>")
+        $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px; font-weight:bold;' ><center>Please select your city</center></h1>")
         return null
     }
     var data = {
@@ -57,7 +57,7 @@ const storeCity = () => {
             $(".store").empty();
             $(".iframe").empty();
             if (res.store.length == 0) {
-                $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px;' ><center>We are coming soon</center></h1>");
+                $(".store").append("<h1 style='font-family: montserrat, sans-serif;font-size:20px; font-weight:bold;' ><center>We are coming soon</center></h1>");
                 $(".iframes").show();
                 return null
             }
