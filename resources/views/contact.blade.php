@@ -322,27 +322,27 @@
           <form method="POST" id="formSubmit">
             @csrf
             <p class="text-center formhead">We are here to help you</p>
-            <input class="fname" type="text" id="FullName" placeholder="Full name" required /><br />
+            <input class="fname" type="text" id="FullName" placeholder="Full name"  /><br />
             <!-- Error -->
             @if ($errors->has('name'))
             <div class="error">
               {{ $errors->first('name') }}
             </div>
             @endif
-            <input class="feemail" id="email" type="email" placeholder="E-Mail Address" required />
+            <input class="feemail" id="email" type="email" placeholder="E-Mail Address"  />
             @if ($errors->has('email'))
             <div class="error">
               {{ $errors->first('email') }}
             </div>
             @endif<br />
 
-            <input class="fnumber" id="mobail" type="text" onchange='numburcheck()' placeholder="Contact details" required />
+            <input class="fnumber" id="mobail" type="text" onchange='numburcheck()' placeholder="Contact details"  />
             @if ($errors->has('phone'))
             <div class="error">
               {{ $errors->first('phone') }}
             </div>
             @endif<br />
-            <select id="subject" value="Select Subject" class="selectsubject" required>
+            <select id="subject" value="Select Subject" class="selectsubject" >
               @if ($errors->has('subject'))
               <div class="error">
                 {{ $errors->first('subject') }}
@@ -356,7 +356,7 @@
               <option value="Feedback">Feedback</option>
               <option value="Others">Others</option>
             </select><br />
-            <input class="fmessage mb-5" id="msg" type="text" placeholder="Your message" required />
+            <input class="fmessage mb-5" id="msg" type="text" placeholder="Your message"  />
             @if ($errors->has('message'))
             <div class="error">
               {{ $errors->first('message') }}
