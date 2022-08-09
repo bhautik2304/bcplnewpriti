@@ -1,3 +1,11 @@
+function numburcheck(){
+    console.log('heloo')
+    const mobaile=$('#mobail').val();
+    console.log(mobaile.length)
+}
+
+
+
 $('#formSubmit').submit(function (e) {
     e.preventDefault();
 

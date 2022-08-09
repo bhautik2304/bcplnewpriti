@@ -1352,8 +1352,10 @@
         <div class="col-md-6  pe-5 pt-2">
           <h1 class="csr">Corporate Social Responsibility</h1>
           <p>
-            We are Associated with an NGO that sponsors child education. Children from the
-            organisation can be later given employment in Beauty Concepts.
+          We are associated with mulitple NGOs, where we train the 
+unprivileged with skills and help them start their career with us.
+We are also reducing plastic in every step of 
+supply chain for a sustainable environment.
           </p>
         </div>
         <div class="col-md-6"><img src="{{url('pictures/about/hands-reaching-out-help.jpg')}}" class="img-vi" alt=""></div>

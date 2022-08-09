@@ -15,6 +15,13 @@ class contactus extends Controller
     //
     public function index(Request $req){
 
+      $this->validate($request, [
+        'name' => 'required',
+        'email' => 'required|email',
+        'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
+        'subject'=>'required',
+     ]);
+
         $contact=new Contact;
        $name= $contact->name=$req->name;
        $email= $contact->email=$req->email;

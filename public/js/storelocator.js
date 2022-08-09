@@ -41,7 +41,7 @@ const storeCity = () => {
     if (CityValue == 0) {
         $(".store").empty();
         $(".iframe").empty();
-        $(".store").append("<h1><center>Please select your city</center></h1>")
+        $(".store").append("<h1 style='font-family: montserrat, sans-serif;' ><center>Please select your city</center></h1>")
         return null
     }
     var data = {
