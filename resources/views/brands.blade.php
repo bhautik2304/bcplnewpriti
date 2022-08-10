@@ -134,6 +134,28 @@
                 <div class="tab-pane fade " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="container mt-4 mb-4">
                         <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/James-bond-007.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/james-bond-007.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                        <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Popular/4711.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Popular/Logo/4711.png" class="mb-4" width="70%" alt="" />
+                            </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="card text-white brand-tab-img">
 
@@ -144,6 +166,17 @@
                                 </div>
 
                                 <img src="pictures/Fashion/Logo/Armaf.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Lifestyle/Alyssa-ashley.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Lifestyle/Logo/ALYSSA-ASHLEY.png" class="mb-4" width="70%" alt="" />
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="card text-white brand-tab-img">
@@ -161,122 +194,34 @@
                                 <div class="card text-white brand-tab-img">
 
                                     <figure>
+                                        <img src="pictures/Popular/Aigner.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Popular/Logo/Aigner.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/Aramis.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Aramis.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
                                         <img src="pictures/Fashion/Betty-barclay.jpg" width="100%" alt="" />
                                     </figure>
 
                                 </div>
 
                                 <img src="pictures/Fashion/Logo/Betty-Barclay.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Fashion/Essence.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Fashion/Logo/essence.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Fashion/Mades.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Fashion/Logo/Mades.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Fashion/S-oliver.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Fashion/Logo/s.Oliver.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Lifestyle/Alyssa-ashley.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Lifestyle/Logo/ALYSSA-ASHLEY.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Lifestyle/Deborah-Milano.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Lifestyle/Logo/Deborah.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Lifestyle/Jeanne Arthes.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Lifestyle/Logo/Jeanne-Arthes.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Lifestyle/Loccitane.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Lifestyle/Logo/Loccitane.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Lifestyle/Maison-Berger.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Lifestyle/Logo/Maison-Berger.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Lifestyle/Samoural.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Lifestyle/Logo/Samoural.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Lifestyle/Yankee-Candles.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Lifestyle/Logo/Yankee-Candles.png" class="mb-4" width="70%" alt="" />
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="card text-white brand-tab-img">
@@ -293,101 +238,45 @@
                                 <div class="card text-white brand-tab-img">
 
                                     <figure>
-                                        <img src="pictures/Luxury/Chopard.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Chopard.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Ermenegildo-zegna.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Ermenegildo-Zegna.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Guerlain.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Guerlain.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Hermes.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Hermes.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Lalique.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Lalique.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Salvatore-ferragamo.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Salvatore-Ferragamo.png" class="mb-4" width="70%"
-                                    alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Popular/4711.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Popular/Logo/4711.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Popular/Aigner.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Popular/Logo/Aigner.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
                                         <img src="pictures/Popular/Bentley.jpg" width="100%" alt="" />
                                     </figure>
 
                                 </div>
 
                                 <img src="pictures/Popular/Logo/Bentley.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/Brioni.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Brioni.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/Clinique.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Clinique.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Chopard.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Chopard.png" class="mb-4" width="70%" alt="" />
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="card text-white brand-tab-img">
@@ -427,6 +316,62 @@
                                 <div class="card text-white brand-tab-img">
 
                                     <figure>
+                                        <img src="pictures/Lifestyle/Deborah-Milano.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Lifestyle/Logo/Deborah.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/DKNY.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/DKNY.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/Estee-lauder.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Estee-Lauder.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Fashion/Essence.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Fashion/Logo/essence.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Ermenegildo-zegna.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Ermenegildo-Zegna.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
                                         <img src="pictures/Popular/Franck-olivier.jpg" width="100%" alt="" />
                                     </figure>
 
@@ -449,6 +394,28 @@
                                 <div class="card text-white brand-tab-img">
 
                                     <figure>
+                                        <img src="pictures/Luxury/Guerlain.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Guerlain.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Hermes.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Hermes.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
                                         <img src="pictures/Popular/Hawkins-_-brimble.jpg" width="100%" alt="" />
                                     </figure>
 
@@ -457,6 +424,18 @@
                                 <img src="pictures/Popular/Logo/Hawkins-_-brimble.png" class="mb-4" width="70%"
                                     alt="" />
                             </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Lifestyle/Jeanne Arthes.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Lifestyle/Logo/Jeanne-Arthes.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            
                             <div class="col-md-3 col-sm-6">
                                 <div class="card text-white brand-tab-img">
 
@@ -478,6 +457,85 @@
                                 </div>
 
                                 <img src="pictures/Popular/Logo/Jaguar.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Lifestyle/Loccitane.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Lifestyle/Logo/Loccitane.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Lalique.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Lalique.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                              
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/Lolita-lempika.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Lolita-lempicka.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/Luxie.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Luxie.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Prestige/Michael-kors.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Michael-Kors.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Fashion/Mades.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Fashion/Logo/Mades.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                             
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Lifestyle/Maison-Berger.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Lifestyle/Logo/Maison-Berger.png" class="mb-4" width="70%" alt="" />
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="card text-white brand-tab-img">
@@ -516,6 +574,17 @@
                                 <div class="card text-white brand-tab-img">
 
                                     <figure>
+                                        <img src="pictures/Prestige/Porsche.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Prestige/Logo/Porsche.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
                                         <img src="pictures/Popular/Police.jpg" width="100%" alt="" />
                                     </figure>
 
@@ -538,133 +607,50 @@
                                 <div class="card text-white brand-tab-img">
 
                                     <figure>
+                                        <img src="pictures/Fashion/S-oliver.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Fashion/Logo/s.Oliver.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            
+                           
+                          
+                          
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Lifestyle/Samoural.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Lifestyle/Logo/Samoural.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Salvatore-ferragamo.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Salvatore-Ferragamo.png" class="mb-4" width="70%"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
                                         <img src="pictures/Popular/Tabac.jpg" width="100%" alt="" />
                                     </figure>
 
                                 </div>
 
                                 <img src="pictures/Popular/Logo/Tabac.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Popular/Victronix.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Popular/Logo/Victronix.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Aramis.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Aramis.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Brioni.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Brioni.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Clinique.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Clinique.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/DKNY.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/DKNY.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Estee-lauder.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Estee-Lauder.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/James-bond-007.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/james-bond-007.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Lolita-lempika.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Lolita-lempicka.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Luxie.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Luxie.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Michael-kors.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Michael-Kors.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Prestige/Porsche.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Prestige/Logo/Porsche.png" class="mb-4" width="70%" alt="" />
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="card text-white brand-tab-img">
@@ -677,6 +663,47 @@
 
                                 <img src="pictures/Prestige/Logo/Tommy-Hilfiger.png" class="mb-4" width="70%" alt="" />
                             </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Popular/Victronix.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Popular/Logo/Victronix.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Lifestyle/Yankee-Candles.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Lifestyle/Logo/Yankee-Candles.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                           
+                            
+                           
+                           
+                            
+                           
+                            
+                          
+                          
+                           
+                           
+                           
+                           
+                            
+                           
+                          
+                          
+                            
                         </div>
                     </div>
                 </div>
