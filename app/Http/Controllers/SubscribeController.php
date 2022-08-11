@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\subscribe;
 use Illuminate\Http\Request;
-
+use Validator;
 class SubscribeController extends Controller
 {
     /**
@@ -37,12 +37,23 @@ class SubscribeController extends Controller
     public function store(Request $req)
     {
         //
+        $rules=array(
+            'email' => 'required|email',
+        );
+        $velid= Validator::make($req->all(),$rules);
+     if ($velid->fails()) {
+        # code...
+        return response([
+            "error"=>$velid->errors(),
+            "errorcode"=>400
+    ],200);
+}
         $subscribeuser=new subscribe;
         $subscribeuser->email=$req->email;
         $subscribeuser->save();
 
         return response(["msg"=>"You have successfully subscribed to our newsletter"],200);
-        
+
     }
 
     /**

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Contact;
 use Illuminate\Http\Request;
 use App\Jobs\contactusjob;
-
+use Validator;
 class contactus extends Controller
 {
 
@@ -15,17 +15,26 @@ class contactus extends Controller
     //
     public function index(Request $req){
 
-      $this->validate($request, [
-        'name' => 'required',
-        'email' => 'required|email',
-        'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
-        'subject'=>'required',
-     ]);
+        $rules=array(
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
+            'subject'=>'required',
+            'msg'=>'required|min:20'
+        );
 
+     $velid= Validator::make($req->all(),$rules);
+     if ($velid->fails()) {
+        # code...
+        return response([
+            "error"=>$velid->errors(),
+            "errorcode"=>400
+    ],200);
+     }
         $contact=new Contact;
        $name= $contact->name=$req->name;
        $email= $contact->email=$req->email;
-       $mobail= $contact->phone=$req->mobail;
+       $mobail= $contact->phone=$req->phone;
        $subject= $contact->subject=$req->subject;
        $msg= $contact->message=$req->msg;
         $contact->save();

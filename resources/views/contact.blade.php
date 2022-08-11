@@ -28,7 +28,7 @@
 
 <body>
   <!-- Header section -->
-
+<div class="error"></div>
   <div class="container-fluid bg-white text-black headercontainer">
     <div class="firstnav mt-3 pe-5 text-center">
       <nav class="allnav">
@@ -307,7 +307,7 @@
                 </p>
               </span>
             </div>
-            
+
 
           </div>
         </div>
@@ -317,37 +317,26 @@
           </p>
         </div>
       </div>
+
       <div class="col-md-6 mt-5 mb-5 formbg pb-5">
         <div class="container">
+            <center>
+                <div class="succeess">
+
+                </div>
+            </center>
           <form method="POST" id="formSubmit">
             @csrf
             <p class="text-center formhead">We are here to help you</p>
-            <input class="fname" type="text" id="FullName" placeholder="Full name"  /><br />
+            <input class="fname" type="text" id="FullName" placeholder="Full name"  />
             <!-- Error -->
-            @if ($errors->has('name'))
-            <div class="error">
-              {{ $errors->first('name') }}
-            </div>
-            @endif
-            <input class="feemail" id="email" type="email" placeholder="E-Mail Address"  />
-            @if ($errors->has('email'))
-            <div class="error">
-              {{ $errors->first('email') }}
-            </div>
-            @endif<br />
+            <div class="name_error"></div>
+            <input class="feemail" id="email" type="text" placeholder="E-Mail Address"  />
+            <div class="email_error"></div>
 
-            <input class="fnumber" id="mobail" type="text" onchange='numburcheck()' placeholder="Contact details"  />
-            @if ($errors->has('phone'))
-            <div class="error">
-              {{ $errors->first('phone') }}
-            </div>
-            @endif<br />
+            <input class="fnumber" id="mobail" type="text"  placeholder="Contact details"  />
+            <div class="mobaile_error"></div>
             <select id="subject" value="Select Subject" class="selectsubject" >
-              @if ($errors->has('subject'))
-              <div class="error">
-                {{ $errors->first('subject') }}
-              </div>
-              @endif
               <option value="Select Subject">Select Subject</option>
               <option value="Brand Partnership">Brand Partnership</option>
               <option value="Retail Partnership">Retail Partnership</option>
@@ -355,13 +344,12 @@
               <option value="customer enquiries">Customer Enquiries</option>
               <option value="Feedback">Feedback</option>
               <option value="Others">Others</option>
-            </select><br />
-            <input class="fmessage mb-5" id="msg" type="text" placeholder="Your message"  />
-            @if ($errors->has('message'))
-            <div class="error">
-              {{ $errors->first('message') }}
+            </select>
+            <div class="sub_error"></div>
+            <div class="mb-5">
+                <input class="fmessage" id="msg" type="text" placeholder="Your message"  />
+                <div class="msg_error"></div>
             </div>
-            @endif<br />
             <button class="fsubmit" type="submit">Talk to us</button><br />
         </div>
         </form>
@@ -371,7 +359,17 @@
   </div>
 
   <!-- footer -->
-
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
   <x-footer/>
   <script src="js/main.js" async defer></script>
   <script src="{{url('js/contactus.js')}}" async defer></script>

@@ -10,11 +10,21 @@ function subscribe() {
                 type: "post",
                 data: data,
              success:function (res) {
-                 $('#sub').val("");
-                 alert(res.msg); //suceess msg
+                if (res.errorcode==400) {
+                    $('.error').empty()
+                    const email='<span class="error text-danger">'+res.error.email+'</span>'
+                    $('.subscribemailerror').append(email);
+                    // alert(res.error.email);
+                }else{
+                    $('.error').empty()
+                    $('#sub').val("");
+                    const email='<span class="error text-success">'+res.msg+'</span>'
+                    $('.subscribemailerror').append(email);
+
+                }
              },
          });
-    
+
         }
         callapi()
 }

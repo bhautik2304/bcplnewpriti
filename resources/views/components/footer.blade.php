@@ -110,7 +110,7 @@
                   <p class="mt-3">Subscribe to our newsletter</p>
                   <input type="email" class="femail" id="sub" placeholder="Email to...." required /><br />
                   <button class="fbtn" onclick="subscribe()">Subscribe</button>
-                  <span class="sucees"></span>
+                  <br><span class="subscribemailerror m-2"></span></br>
                 </div>
               </div>
             </div>
@@ -127,4 +127,3 @@
     </div>
   </div>
   <script src="{{url('js/subscribe.js')}}"></script>
-  
