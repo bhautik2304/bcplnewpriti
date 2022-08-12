@@ -60,7 +60,7 @@ async function callapi(){
                 return null
             }else{
                 removerror()
-                const msg='<div class="alert alert-success mt-4">'+res.msg+'</div>'
+                const msg='<div class="alert alert-success bg-transparent mt-4">'+res.msg+'</div>'
                 $('.succeess').append(msg);
                 removedata()
             }
