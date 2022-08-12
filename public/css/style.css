@@ -2976,3 +2976,10 @@ input[type=checkbox] {
 
 
 }
+
+
+/* instaupdate */
+
+a.feed-powered-by-es.feed-powered-by-es-feed-new {
+   display: none !important;
+}

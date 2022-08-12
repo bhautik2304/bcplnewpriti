@@ -466,30 +466,17 @@
                 </div>
             </div>
         </div>
-
-
+    <div class="container">
+       
+            </div>
         <div class="container mt-5 mb-5">
             <p class="text-center instahead mb-4">Insta Updates</p>
-            <div class="owl-carousel owl-theme slidercard">
-                <div class="item">
-                    <div class="m-3"><img src="pictures/Rectangle 44.png" /></div>
-                </div>
-                <div class="item">
-                    <div class="m-3"><img src="pictures/Rectangle 45.png" /></div>
-                </div>
-                <div class="item">
-                    <div class="m-3"><img src="pictures/Rectangle 46.png" /></div>
-                </div>
-                <div class="item">
-                    <div class="m-3"><img src="pictures/Rectangle 44.png" /></div>
-                </div>
-                <div class="item">
-                    <div class="m-3"><img src="pictures/Rectangle 45.png" /></div>
-                </div>
-                <div class="item">
-                    <div class="m-3"><img src="pictures/Rectangle 46.png" /></div>
-                </div>
-            </div>
+            <div class="embedsocial-hashtag" data-ref="ef264166c7940858786ef07bf47f8a5f54472371"> <a class="feed-powered-by-es feed-powered-by-es-feed-new" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Widget by EmbedSocial"> Widget by EmbedSocial<span>→</span> </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
+
+
+
+
+
         </div>
 
         <!-- footer -->
