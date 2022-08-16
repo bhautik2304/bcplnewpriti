@@ -2983,3 +2983,8 @@ input[type=checkbox] {
 a.feed-powered-by-es.feed-powered-by-es-feed-new {
    display: none !important;
 }
+
+.google-class{
+    display: block;
+    float: right;
+}

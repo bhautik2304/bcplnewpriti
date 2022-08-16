@@ -89,7 +89,11 @@
                                 <li>
                                     <a href="{{route('Storelocator')}}" class="rightmenu">STORE LOCATOR</a>
                                 </li>
+                                <div class="ps-5">
+                            <div class="google-class" id="google_element"></div>
+                            </div>
                             </ul>
+
                         </nav>
                     </div>
                     <div class="secondnav">
@@ -140,6 +144,8 @@
         <!-- Main Content Area -->
 
         <div class="container mt-5">
+            <div class="language">
+          </div>
             <p class="text-center " style="color: #707070;
     font-size: 30px;
     font-family: montserrat, sans-serif !important;">A LEADING DISTRIBUTOR OF GLOBAL BRANDS</p>
@@ -482,6 +488,14 @@
         <!-- footer -->
 
         <x-footer />
+
+        <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+
+<script>
+  function loadGoogleTranslate() {
+    new google.translate.TranslateElement("google_element");
+  }
+</script>
 
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
