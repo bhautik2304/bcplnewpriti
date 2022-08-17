@@ -89,28 +89,51 @@
                                 <li>
                                     <a href="{{route('Storelocator')}}" class="rightmenu">STORE LOCATOR</a>
                                 </li>
-                                <div class="ps-5">
-                            <div class="google-class" id="google_element"></div>
-                            </div>
+
                             </ul>
+                            <div class="float-end language-class">
+                                    <!-- Button trigger modal -->
+
+    <img src="/pictures/internet.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width:25px" >
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+      <div class="google-class" id="google_element"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+                            </div>
+
 
                         </nav>
+
                     </div>
                     <div class="secondnav">
                         <nav class="navbar navbar-expand-xm navbar-dark p-md-3">
                             <div class="container">
                                 <a class="navbar-brand" width="20%" class="centermenu" href="{{route('Index')}}"><img
                                         src="pictures/home-white-logo.png" width="40%" alt="" /></a>
-
+                                        <div class="navbar-nav ml-auto">
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                     aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
+                               
+</div>
 
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <div class="mx-auto"></div>
-                                    <ul class="navbar-nav">
+                                    <ul class="navbar-nav d-flex flex-column text-start">
                                         <li class="nav-item">
                                             <a class="nav-link text-white" href="{{route('about')}}">ABOUT US</a>
                                         </li>
@@ -140,6 +163,7 @@
                 </header>
             </div>
         </header>
+
 
         <!-- Main Content Area -->
 
@@ -473,7 +497,7 @@
             </div>
         </div>
     <div class="container">
-       
+
             </div>
         <div class="container mt-5 mb-5">
             <p class="text-center instahead mb-4">Insta Updates</p>

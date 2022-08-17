@@ -98,6 +98,8 @@
                       <a href="https://www.instagram.com/beautyconcepts_india/" target="_blank"><img
                           src="/pictures/insta.png" width="12%" alt=""></a>&nbsp;&nbsp;
 
+                         
+
                       <a href="https://www.facebook.com/BeautyConceptsIndia" target="_blank"><img src="/pictures/fb.png"
                           width="12%" alt=""></a>&nbsp;&nbsp;
 

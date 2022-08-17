@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Brands</title>
+  <title>Our Stores</title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
@@ -45,6 +45,27 @@
             <a href="{{route('Storelocator')}}" class="rightmenu">STORE LOCATOR</a>
           </li>
         </ul>
+        <div class="float-end language-class">
+                                    <!-- Button trigger modal -->
+
+    <img src="/pictures/internet-black.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width:25px" >
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+      <div class="google-class" id="google_element"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+                            </div>
       </nav>
     </div>
     <div class="secondnav">
@@ -220,6 +241,15 @@
   <!-- footer -->
 
   <x-footer/>
+
+  <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+
+<script>
+  function loadGoogleTranslate() {
+    new google.translate.TranslateElement("google_element");
+  }
+</script>
+
 </body>
 
 </html>

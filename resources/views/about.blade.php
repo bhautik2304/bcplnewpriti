@@ -46,6 +46,27 @@
             <a href="{{route('Storelocator')}}" class="rightmenu">STORE LOCATOR</a>
           </li>
         </ul>
+        <div class="float-end language-class">
+                                    <!-- Button trigger modal -->
+
+    <img src="/pictures/internet-black.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width:25px" >
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+      <div class="google-class" id="google_element"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+                            </div>
       </nav>
     </div>
     <div class="secondnav">
@@ -1458,6 +1479,15 @@ supply chain for a sustainable environment.
   <!-- footer -->
 
   <x-footer/>
+
+  <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+
+<script>
+  function loadGoogleTranslate() {
+    new google.translate.TranslateElement("google_element");
+  }
+</script>
+
 
   <!-- ****************************************************** -->
   <script src="js/bootstrap.bundle.min.js"></script>
