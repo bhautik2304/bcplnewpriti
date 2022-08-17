@@ -73,39 +73,41 @@
       </nav>
     </div>
     <div class="secondnav">
-      <nav class="navbar navbar-expand-xm navbar-light p-md-3">
-        <div class="container">
-          <a class="navbar-brand" class="centermenu" href="{{route('Index')}}"><img src="pictures/logoblack.png" width="40%" alt="" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <nav class="navbar navbar-expand-xm navbar-light p-md-3">
+                <div class="container">
+                    <a class="navbar-brand" class="centermenu" href="{{route('Index')}}"><img
+                            src="pictures/logoblack.png" width="40%" alt="" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mx-auto"></div>
-            <ul class="navbar-nav d-flex flex-column text-start mt-3">
-              <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('about')}}">ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('Brands')}}">BRANDS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('Maisondeperfums')}}">MAISON DES PARFUMS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('Ourstores')}}">OUR STORES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('createForm')}}">CONTACT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black" href="{{route('Storelocator')}}">STORE LOCATOR</a>
-              </li>
-            </ul>
-          </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav  flex-column text-start mt-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="{{route('about')}}">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="{{route('Brands')}}">BRANDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="{{route('Maisondeperfums')}}">MAISON DES PARFUMS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="{{route('Ourstores')}}">OUR STORES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="{{route('createForm')}}">CONTACT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="{{route('Storelocator')}}">STORE LOCATOR</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
   </div>
 
   <img src="pictures/contact-banner.svg" width="100%" alt="" />

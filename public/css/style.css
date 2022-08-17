@@ -3054,7 +3054,7 @@ a.feed-powered-by-es.feed-powered-by-es-feed-new {
 
 .navbar-nav{
     justify-content: space-between !important;
-    flex-direction: row !important;
+    /* flex-direction: row !important; */
     /* align-items: center !important; */
 }
 
