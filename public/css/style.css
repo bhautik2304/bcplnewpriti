@@ -139,7 +139,7 @@ nav ul .centermenu img {
 .modal-backdrop {
     position: fixed;
     /* top: 100px !important; */
-    left: 0;
+    right: 0 !important;
     z-index: -5 !important;
     width: 100vw;
     height: 100%;
@@ -147,18 +147,19 @@ nav ul .centermenu img {
 }
 
 .modal-dialog {
-    position: fixed ;
+    /* position: fixed ; */
     top:65px !important;
-    margin-right: 0 !important;
+    /* margin-right: 0 !important; */
   }
-
+  
+  
 .goog-te-combo {
     font-family: arial;
     font-size: 15pt !important;
 }
 
 .goog-te-gadget .goog-te-combo {
-    margin: 0 0 !important;
+    margin: 0 auto !important;
     margin-top: 10px !important;
     /* padding-top: 10px !important; */
     border: none !important;
@@ -2071,13 +2072,13 @@ input[type=checkbox] {
     }
 
     /* Safari 6.1+ */
-    div#midiv {
+    /* div#midiv {
         -webkit-order: 2;
     }
 
     div#mtdiv {
         -webkit-order: 1;
-    }
+    } */
 
 
     /* Standard syntax */
