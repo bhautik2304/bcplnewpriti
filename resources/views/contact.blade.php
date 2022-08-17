@@ -82,7 +82,7 @@
 
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="mx-auto"></div>
-            <ul class="navbar-nav mt-3">
+            <ul class="navbar-nav d-flex flex-column text-start mt-3">
               <li class="nav-item">
                 <a class="nav-link text-black" href="{{route('about')}}">ABOUT US</a>
               </li>
