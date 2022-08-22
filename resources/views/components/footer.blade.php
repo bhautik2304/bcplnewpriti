@@ -41,7 +41,7 @@
                         <li>MDP</li>
                       </a>
                       <a href="{{route('Ourstores')}}" class="fbrands">
-                        <li>Beauty Luxe</li>
+                        <li>Beaute Luxe</li>
                       </a>
                       <a href="{{route('Ourstores')}}" class="fbrands"><li>Beauty Scentiments</li></a>
                     </div>
