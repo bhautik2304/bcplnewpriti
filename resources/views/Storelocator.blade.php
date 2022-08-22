@@ -184,7 +184,7 @@
 
                         <p><b>BEAUTE LUXE, KOLKATA:</b></p>
 
-                        <p>Domestic Airport ,Jessore Rd, Dum Dum, Kolkata, West Bengal</p>
+                        <p>Domestic Airport ,Jessore Rd, Dum Dum, Kolkata, West Bengal - 700052</p>
 
                         <p><b>BEAUTE LUXE, MUMBAI</b></p>
 
