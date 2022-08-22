@@ -470,7 +470,7 @@
                             <img src="pictures/beauty-products.png" class="card-img" alt="..." />
                         </figure>
                         <div class="card-img-overlay">
-                            <p class="card-text segmenttext">Beauty products</p>
+                            <p class="card-text segmenttext">Beauty Products</p>
                         </div>
                     </div>
                 </div>
@@ -490,7 +490,7 @@
                             <img src="pictures/home.png" class="card-img" alt="..." />
                         </figure>
                         <div class="card-img-overlay">
-                            <p class="card-text segmenttext">Home fragrance</p>
+                            <p class="card-text segmenttext">Home Fragrances</p>
                         </div>
                     </div>
                 </div>
