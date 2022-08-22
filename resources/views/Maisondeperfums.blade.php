@@ -144,15 +144,21 @@
         Studio, Rance, Franck Boclet, One of Those and other well-known brand
         names to come.
       </p>
+      <p style="text-align: justify;">
+      The MDP Concept Stores are a new beginning for BCPL to cater to
+      the discerning individual & take luxury retailing for fragrances to
+      new levels of desirability, service & engagement.
+    </p>
+    
     </div>
   </div>
-  <div class="row">
+ <!-- <div class="row">
     <p style="text-align: justify;">
       The MDP Concept Stores are a new beginning for BCPL to cater to
       the discerning individual & take luxury retailing for fragrances to
       new levels of desirability, service & engagement.
     </p>
-  </div>
+  </div>-->
 </div>
 <div class="container mt-5 mb-5">
   <div class="row maisoncontent ">
