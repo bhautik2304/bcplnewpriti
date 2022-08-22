@@ -124,7 +124,7 @@
       <img src="pictures/maisonperfumes.svg" width="100%" alt="" />
     </div>
     <div class="col-md-8 mt-5">
-      <p>
+      <p style="text-align: justify;">
         Maison des Parfums (MDP), launched in 2017 is a luxury retail
         boutique concept that houses a collection of fine artisanal luxury
         fragrances that are curated from around the world.<br /><br />
@@ -147,7 +147,7 @@
     </div>
   </div>
   <div class="row">
-    <p>
+    <p style="text-align: justify;">
       The MDP Concept Stores are a new beginning for BCPL to cater to
       the discerning individual & take luxury retailing for fragrances to
       new levels of desirability, service & engagement.
