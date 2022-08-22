@@ -149,7 +149,7 @@
   <div class="row">
     <p>
       The MDP Concept Stores are a new beginning for BCPL to cater to
-      the5discerning individual & take luxury retailing for fragrances to
+      the discerning individual & take luxury retailing for fragrances to
       new levels of desirability, service & engagement.
     </p>
   </div>
