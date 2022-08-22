@@ -139,16 +139,15 @@
         Maison des Parfums has curated a wide range of exclusive artisanal
         fragrances that reflect top quality with creative excellence
         including those of Memo, Amouage, NASOMATTO, Juliette has a gun,
-        Jean
+        Jean Patou, Xerjoff, Bulgari Le Gemme, The Different Company, Amouroud,
+        Houbigant, Etat Libre D’Orange, Rance, Lalique Premier Noir, Olfactive
+        Studio, Rance, Franck Boclet, One of Those and other well-known brand
+        names to come.
       </p>
     </div>
   </div>
   <div class="row">
     <p>
-      Patou, Xerjoff, Bulgari Le Gemme, The Different Company, Amouroud,
-      Houbigant, Etat Libre D’Orange, Rance, Lalique Premier Noir, Olfactive
-      Studio, Rance, Franck Boclet, One of Those and other well-known brand
-      names to come.<br /><br />
       The MDP Concept Stores are a new beginning for BCPL to cater to
       the5discerning individual & take luxury retailing for fragrances to
       new levels of desirability, service & engagement.
