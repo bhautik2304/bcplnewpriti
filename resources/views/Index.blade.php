@@ -240,7 +240,7 @@
                 <div class="col-md-6 col-sm-12 mb-3">
                     <p class="knowushead">Know About Us</p>
 
-                    <p class="knowuscontent">
+                    <p class="knowuscontent" style="text-align: justify;">
                         BCPL - BEAUTY CONCEPTS, established in the year 1998 is an integral part of the Bahety Group of
                         Companies. With a brand portfolio of over 100+ brands, BCPL is the preferred partner for
                         international
