@@ -1337,7 +1337,7 @@
       <div class="row ">
         <div class="col-md-6  pe-5 pt-2">
           <h1>Vision</h1>
-          <p>Enhancing Innovation and Creativity
+          <p style="text-align: justify;">Enhancing Innovation and Creativity
             <br><br>
             BCPL aims to upload the spirit of innovation – not just in
             terms of product, but also in retail methods and experience creation.
@@ -1372,11 +1372,10 @@
       <div class="row mt-5 ">
         <div class="col-md-6  pe-5 pt-2">
           <h1 class="csr">Corporate Social Responsibility</h1>
-          <p>
-          We are associated with mulitple NGOs, where we train the 
-unprivileged with skills and help them start their career with us.
-We are also reducing plastic in every step of 
-supply chain for a sustainable environment.
+          <p style="text-align: justify;">
+          We are associated with mulitple NGOs, where we train the unprivileged with skills and help them start their career with us. 
+          We are also reducing plastic in every step of 
+          supply chain for a sustainable environment.
           </p>
         </div>
         <div class="col-md-6"><img src="{{url('pictures/about/hands-reaching-out-help.jpg')}}" class="img-vi" alt=""></div>
