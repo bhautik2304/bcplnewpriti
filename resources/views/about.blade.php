@@ -112,7 +112,7 @@
 
   <div class="container mt-5">
     <p class="leadingbrands">A LEADING DISTRIBUTOR OF GLOBAL BRANDS</p>
-    <p>BCPL - BEAUTY CONCEPTS, established in the year 1998 is a member of the Bahety Group of Companies. With a brand
+    <p style="text-align: justify;">BCPL - BEAUTY CONCEPTS, established in the year 1998 is a member of the Bahety Group of Companies. With a brand
       portfolio of over 100+ brands, BCPL is the preferred partner for International brands foraying the emerging and
       challenging Indian Market.<br><br>
       After being in business for across 4 decades, our team has established excellent bond with all the leading perfume
