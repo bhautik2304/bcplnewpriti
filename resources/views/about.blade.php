@@ -1353,7 +1353,7 @@
         <div class="col-md-6" id="midiv"><img src="{{url('pictures/about/mission.jpg')}}" class="img-mi" alt=""></div>
         <div class="col-md-6" id="mtdiv">
           <h1>Mission</h1>
-          <p>Becoming India’s Leading Distribution House for Lifestyle & Fashion Accessories
+          <p style="text-align: justify;">Becoming India’s Leading Distribution House for Lifestyle & Fashion Accessories
             <br><br>
             Our mission
             is to partner with select global companies that aim to build their brand and distribution network in India
