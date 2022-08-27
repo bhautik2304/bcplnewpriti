@@ -115,7 +115,7 @@
         <img src="pictures/Maison-De-Parfums.jpg" class="retailimg-1" alt="" />
       </div>
       <div class="right">
-        <p class="retailtext">
+        <p class="retailtext" style="text-align: justify;">
           <strong> Smell good, feel good </strong>
           <br><br>
 
@@ -158,7 +158,7 @@
         <img src="pictures/beaute luxe.svg" class="retailimg-2" alt="" />
       </div>
       <div class="right">
-        <p class="retailtext">
+        <p class="retailtext" style="text-align: justify;">
           <strong> Making Luxury Accessible </strong>
           <br><br>
           Beaute Luxe are luxury retail stores that house BCPL’s Luxury and Niche
@@ -208,7 +208,7 @@
         <img src="pictures/Beauty-Scentiments.svg" class="retailimg-3" alt="" />
       </div>
       <div class="right">
-        <p class="retailtext">
+        <p class="retailtext" style="text-align: justify;">
           <strong> Bringing You Everything Beautiful </strong>
           <br><br>
           Beauty Scentiments are retail stores that cater to aspirational
