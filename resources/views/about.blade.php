@@ -106,7 +106,7 @@
   </div>
 
 
-  <img src="pictures/about-banner.svg" width="100%" alt="">
+  <img src="pictures/about us-01.png" width="100%" alt="">
 
 
 
