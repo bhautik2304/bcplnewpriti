@@ -122,7 +122,7 @@
         </div>
     </div>
 
-    <img src="pictures/store-banner.svg" width="100%" alt="" />
+    <img src="pictures/store-locator-01.png" width="100%" alt="" />
 
 
     <div class="container mt-5 mb-5">
