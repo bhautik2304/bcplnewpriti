@@ -116,7 +116,7 @@
     </div>
   </div>
 
-  <img src="pictures/maison-banner.svg" width="100%" alt="" />
+  <img src="pictures/mdp-01.png" width="100%" alt="" />
 
 <div class="container mt-5">
   <div class="row">
