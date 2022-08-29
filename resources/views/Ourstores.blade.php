@@ -104,7 +104,7 @@
     </div>
   </div>
 
-  <img src="pictures/ourstores-banner.svg" width="100%" alt="" />
+  <img src="pictures/our-store-01.png" width="100%" alt="" />
 
   <!-- <div class="container mt-5 mb-5">
     <p class="retailmainhead">Maison Des Parfums</p>
