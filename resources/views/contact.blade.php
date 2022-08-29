@@ -110,7 +110,7 @@
         </div>
   </div>
 
-  <img src="pictures/contact-banner.svg" width="100%" alt="" />
+  <img src="pictures/CONTACT-US-01.png" width="100%" alt="" />
 
   <div class="container">
     <div class="row">
