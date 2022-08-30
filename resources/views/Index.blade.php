@@ -262,9 +262,9 @@
         </div>
         <div class="container mb-5">
             <div class="mt-3 mb-3 text-center justify-content-between">
-                <span><img src="pictures/ring.png" style="width: 10%" /></span>&nbsp;
+                <span><img src="pictures/ring-homepage.png" style="width: 10%" /></span>&nbsp;
                 &nbsp;&nbsp;<span class="chooseushead">Why Choose Us</span>&nbsp;
-                &nbsp;&nbsp;<span><img src="pictures/ring.png" style="width: 10%" /></span>
+                &nbsp;&nbsp;<span><img src="pictures/ring-homepage.png" style="width: 10%" /></span>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 mt-2">
