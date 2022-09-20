@@ -2610,12 +2610,16 @@ input[type=checkbox] {
 
 .dot img {
     position: relative;
-    -webkit-animation-duration: .2s;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    /* -webkit-animation-duration: .2s;
     animation-duration: .8s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
 }
 
 .dot img:hover {
@@ -2840,7 +2844,192 @@ input[type=checkbox] {
 
 }
 
+/* **************** */
 
+.dot-1  img{
+   animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite; 
+}
+
+.dot-3  img{
+    animation: bounce 1.5s infinite;
+  -webkit-animation: bounce 1.5s infinite;
+  -moz-animation: bounce 1.5s infinite;
+  -o-animation: bounce 1.5s infinite;
+}
+
+.dot-2  img{
+   
+ animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+
+.dot-4  img{
+ animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
+   }
+
+
+.dot-5  img{
+   
+ animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  -moz-animation: bounce 3s infinite;
+  -o-animation: bounce 3s infinite;
+}
+
+.dot-6  img{
+ animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
+   }
+
+.dot-20 img {
+    animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+
+/* .dot-7  img{
+   
+
+} */
+
+.dot-8  img{
+       animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite; 
+}
+
+.dot-9  img{
+    animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  -moz-animation: bounce 3s infinite;
+  -o-animation: bounce 3s infinite;
+
+}
+
+.dot-10 img {
+   
+ animation: bounce 3.5s infinite;
+  -webkit-animation: bounce 3.5s infinite;
+  -moz-animation: bounce 3.5s infinite;
+  -o-animation: bounce 3.5s infinite;
+}
+
+.dot-11 img {
+    animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+
+
+}
+
+.dot-12 img {
+ animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
+   }
+
+.dot-21 img {
+ animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
+   }
+
+.dot-22 img {
+ animation: bounce 1.5s infinite;
+  -webkit-animation: bounce 1.5s infinite;
+  -moz-animation: bounce 1.5s infinite;
+  -o-animation: bounce 1.5s infinite;
+   }
+
+.dot-23 img {
+ animation: bounce 3.5s infinite;
+  -webkit-animation: bounce 3.5s infinite;
+  -moz-animation: bounce 3.5s infinite;
+  -o-animation: bounce 3.5s infinite;
+   
+}
+
+.dot-24 img {
+ animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  -moz-animation: bounce 3s infinite;
+  -o-animation: bounce 3s infinite;
+   }
+
+
+.dot-13 img {
+    animation: bounce 4s infinite;
+  -webkit-animation: bounce 4s infinite;
+  -moz-animation: bounce 4s infinite;
+  -o-animation: bounce 4s infinite;
+
+}
+
+.dot-14 img {
+   
+ animation: bounce 4.5s infinite;
+  -webkit-animation: bounce 4.5s infinite;
+  -moz-animation: bounce 4.5s infinite;
+  -o-animation: bounce 4.5s infinite;
+}
+
+.dot-15 img {
+    animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+
+}
+
+.dot-16 img {
+   
+ animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
+}
+
+.dot-17 img {
+   
+ animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  -moz-animation: bounce 3s infinite;
+  -o-animation: bounce 3s infinite;
+}
+
+.dot-18 img {
+   
+ animation: bounce 3.5s infinite;
+  -webkit-animation: bounce 3.5s infinite;
+  -moz-animation: bounce 3.5s infinite;
+  -o-animation: bounce 3.5s infinite;
+
+}
+
+.dot-19 img {
+    animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
+}
+
+
+/* *************** */
 
 
 
