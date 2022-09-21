@@ -723,6 +723,96 @@
                 
                 
                 
+
+                
+                
+                
+                <div class="tab-pane fade show active" id="nav-luxury" role="tabpanel" aria-labelledby="nav-luxury-tab">
+                    <div class="container mt-4 mb-4">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Bvlgari.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Bvlgari.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Chopard.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Chopard.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Ermenegildo-zegna.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Ermenegildo-Zegna.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Guerlain.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Guerlain.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Hermes.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Hermes.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Lalique.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Lalique.png" class="mb-4" width="70%" alt="" />
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card text-white brand-tab-img">
+
+                                    <figure>
+                                        <img src="pictures/Luxury/Salvatore-ferragamo.jpg" width="100%" alt="" />
+                                    </figure>
+
+                                </div>
+
+                                <img src="pictures/Luxury/Logo/Salvatore-Ferragamo.png" class="mb-4" width="70%"
+                                    alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
                 
                 
                 <!----- Niche Images Starts Here ------->
@@ -732,9 +822,7 @@
 	<div class="container mt-4 mb-4">
 		<div class="row">
 			
-			
-			
-			
+
 			<div class="col-md-3 col-sm-6">
 				<div class="card text-white brand-tab-img">
 					<figure>
@@ -831,98 +919,12 @@
 </div>
 
                 
-                
-                
                 <!----- Niche Images Ends Here ------->
                 
-
                 
                 
                 
-                <div class="tab-pane fade show active" id="nav-luxury" role="tabpanel" aria-labelledby="nav-luxury-tab">
-                    <div class="container mt-4 mb-4">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Bvlgari.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Bvlgari.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Chopard.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Chopard.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Ermenegildo-zegna.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Ermenegildo-Zegna.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Guerlain.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Guerlain.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Hermes.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Hermes.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Lalique.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Lalique.png" class="mb-4" width="70%" alt="" />
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="card text-white brand-tab-img">
-
-                                    <figure>
-                                        <img src="pictures/Luxury/Salvatore-ferragamo.jpg" width="100%" alt="" />
-                                    </figure>
-
-                                </div>
-
-                                <img src="pictures/Luxury/Logo/Salvatore-Ferragamo.png" class="mb-4" width="70%"
-                                    alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="tab-pane fade" id="nav-prestige" role="tabpanel" aria-labelledby="nav-prestige-tab">
                     <div class="container mt-4 mb-4">
                         <div class="row">
