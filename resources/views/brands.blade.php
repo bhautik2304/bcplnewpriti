@@ -715,26 +715,127 @@
                                 <img src="pictures/Lifestyle/Logo/Yankee-Candles.png" class="mb-4" width="70%" alt="" />
                             </div>
                            
-                            
-                           
-                           
-                            
-                           
-                            
-                          
-                          
-                           
-                           
-                           
-                           
-                            
-                           
-                          
-                          
+
                             
                         </div>
                     </div>
                 </div>
+                
+                
+                
+                
+                
+                <!----- Niche Images Starts Here ------->
+                
+                
+                <div class="tab-pane fade show active" id="nav-niche" role="tabpanel" aria-labelledby="nav-niche-tab">
+	<div class="container mt-4 mb-4">
+		<div class="row">
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Caviar.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Caviar.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Evelom.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Evelom.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Margys.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Margys.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/MZSkin.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/MZSkin.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Orlane.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Orlane.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/PhilipB.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/PhilipB.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Sachajuan.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Sachajuan.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Swissperfection.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Swissperfection.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+			
+			<div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Verso.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Verso.png" class="mb-4" width="70%" alt="" />
+			</div>
+			
+
+			
+		</div>
+	</div>
+</div>
+
+                
+                
+                
+                <!----- Niche Images Ends Here ------->
+                
+
+                
+                
+                
                 <div class="tab-pane fade show active" id="nav-luxury" role="tabpanel" aria-labelledby="nav-luxury-tab">
                     <div class="container mt-4 mb-4">
                         <div class="row">
