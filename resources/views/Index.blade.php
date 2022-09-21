@@ -177,8 +177,35 @@
                 
                 
                 <div class="item ">
+                    <img src="/pictures/index-logo/EVELOM.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/MARGY.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/MZSKIN.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/ORLANE.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/PHILIPB.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/SACHA.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/SWISS.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/VERSO.jpg" alt="">
+                </div>
+
+                <div class="item ">
                     <img src="/pictures/index-logo/CAVIAR.jpg" alt="">
                 </div>
+                
+                
                 <div class="item ">
                     <img src="/pictures/index-logo/Bvlgari.jpg" alt="">
                 </div>
