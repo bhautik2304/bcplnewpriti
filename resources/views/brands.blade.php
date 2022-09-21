@@ -134,17 +134,16 @@
                         Luxury
                     </button>
                     
-                    <button class="nav-link active" id="nav-niche-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-niche" type="button" role="tab" aria-controls="nav-niche"
-                        aria-selected="true">
+                    <button class="nav-link" id="nav-niche-tab" data-bs-toggle="tab" data-bs-target="#nav-niche"
+                        type="button" role="tab" aria-controls="nav-niche" aria-selected="false">
                         Niche
                     </button>
-                    
                     
                     <button class="nav-link" id="nav-prestige-tab" data-bs-toggle="tab" data-bs-target="#nav-prestige"
                         type="button" role="tab" aria-controls="nav-prestige" aria-selected="false">
                         Prestige
                     </button>
+                    
                     <button class="nav-link" id="nav-popular-tab" data-bs-toggle="tab" data-bs-target="#nav-popular"
                         type="button" role="tab" aria-controls="nav-popular" aria-selected="false">
                         Popular
