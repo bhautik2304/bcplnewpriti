@@ -732,14 +732,7 @@
 	<div class="container mt-4 mb-4">
 		<div class="row">
 			
-			<div class="col-md-3 col-sm-6">
-				<div class="card text-white brand-tab-img">
-					<figure>
-						<img src="pictures/Niche/Caviar.jpg" width="100%" alt="" />
-					</figure>
-				</div>
-					<img src="pictures/Niche/Logo/Caviar.png" class="mb-4" width="70%" alt="" />
-			</div>
+			
 			
 			
 			<div class="col-md-3 col-sm-6">
@@ -819,6 +812,16 @@
 					</figure>
 				</div>
 					<img src="pictures/Niche/Logo/Verso.png" class="mb-4" width="70%" alt="" />
+			</div>
+            
+            
+            <div class="col-md-3 col-sm-6">
+				<div class="card text-white brand-tab-img">
+					<figure>
+						<img src="pictures/Niche/Caviar.jpg" width="100%" alt="" />
+					</figure>
+				</div>
+					<img src="pictures/Niche/Logo/Caviar.png" class="mb-4" width="70%" alt="" />
 			</div>
 			
 
