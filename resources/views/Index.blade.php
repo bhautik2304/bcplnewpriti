@@ -175,75 +175,89 @@
     font-family: montserrat, sans-serif !important;">A LEADING DISTRIBUTOR OF GLOBAL BRANDS</p>
             <div class="owl-carousel owl-theme slidercard2 pb-2">
                 
-                
-                <div class="item ">
-                    <img src="/pictures/index-logo/AcquaDiParma.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/Amouge.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/Lalique.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/MemoParis.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/Moresque.jpg" alt="">
-                </div>
-                
-                
-                <div class="item ">
-                    <img src="/pictures/index-logo/EVELOM.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/MARGY.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/MZSKIN.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/ORLANE.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/PHILIPB.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/SACHA.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/SWISS.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/VERSO.jpg" alt="">
-                </div>
+                    <div class="item ">
+                        <img src="/pictures/index-logo/AcquaDiParma.jpg" alt="">
+                    </div>
 
-                <div class="item ">
-                    <img src="/pictures/index-logo/CAVIAR.jpg" alt="">
-                </div>
+                    <div class="item ">
+                        <img src="/pictures/index-logo/Amouge.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/Bvlgari.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/CAVIAR.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/Chopard.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/EVELOM.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/Ermenegildo-Zegna.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/Guerlain.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/Hermes.jpg" alt="">
+                    </div>
+
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/lalique.jpg" alt="">
+                    </div>
+
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/MemoParis.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/Moresque.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/MARGY.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/MZSKIN.jpg" alt="">
+                    </div>
+
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/ORLANE.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/PHILIPB.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/SACHA.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/SWISS.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/SF.jpg" alt="">
+                    </div>
+
+                    <div class="item ">
+                        <img src="/pictures/index-logo/VERSO.jpg" alt="">
+                    </div>
                 
-                
-                <div class="item ">
-                    <img src="/pictures/index-logo/Bvlgari.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/Chopard.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/Ermenegildo-Zegna.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/Guerlain.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/Hermes.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/lalique.jpg" alt="">
-                </div>
-                <div class="item ">
-                    <img src="/pictures/index-logo/SF.jpg" alt="">
-                </div>
 
             </div>
         </div>
