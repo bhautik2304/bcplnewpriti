@@ -177,6 +177,23 @@
                 
                 
                 <div class="item ">
+                    <img src="/pictures/index-logo/AcquaDiParma.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/Amouge.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/Lalique.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/MemoParis.jpg" alt="">
+                </div>
+                <div class="item ">
+                    <img src="/pictures/index-logo/Moresque.jpg" alt="">
+                </div>
+                
+                
+                <div class="item ">
                     <img src="/pictures/index-logo/EVELOM.jpg" alt="">
                 </div>
                 <div class="item ">
