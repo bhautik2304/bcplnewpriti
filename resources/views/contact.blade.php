@@ -275,7 +275,7 @@
             <div class="dot dot-13"><img src="/pictures/bcpl/warehouse.svg" />
               <span class="tooltiptext p-2">
                 <h5 style="padding-top: 12px;">Warehouse</h5>
-                <1--<hr />
+                <!--<hr />
                 <p>3-4-616/1, Ground Floor ,Street No .7, Narayanaguda, Hyderabad 500029
                 </p>-->
               </span>
