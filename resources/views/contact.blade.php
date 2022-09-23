@@ -122,7 +122,7 @@
           <div id="dots">
             <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" />
               <span class="tooltiptext p-2">
-                <h5>Warehouse</h5>
+                <h5 style="padding-top: 25px;">Warehouse</h5>
                 <!--<hr />
                 <p>Block No.209,NH.No 08, Jasmine Agro Industries Compound, Behind Prakash Petrol Pump, Jetalpur, Ahmedabad-382426
                 </p>-->
