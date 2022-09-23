@@ -123,9 +123,9 @@
             <div class="dot dot-1"><img src="/pictures/bcpl/warehouse.svg" />
               <span class="tooltiptext p-2">
                 <h5>Warehouse</h5>
-                <hr />
+                <!--<hr />
                 <p>Block No.209,NH.No 08, Jasmine Agro Industries Compound, Behind Prakash Petrol Pump, Jetalpur, Ahmedabad-382426
-                </p>
+                </p>-->
               </span>
             </div>
             <div class="dot dot-2"><img src="/pictures/bcpl/office.svg" />
