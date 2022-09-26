@@ -8,7 +8,8 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
+    <link rel="stylesheet" href="{{url('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url('css/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{url('css/style.css')}}" />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -168,7 +169,9 @@
 
 
                     <!--------- Your Store Data-------->
+                    <div class="modelclass">
 
+                    </div>
                     <div class="scroll-page store">
                         <p><b>SELECT CITY WALK</b></p>
 
@@ -218,8 +221,51 @@
     <!-- footer -->
 
     <x-footer />
-    <script type="text/javascript" src="{{url('js/storelocator.js')}}"></script>
+    <!-- Button trigger modal -->
+<button type="button" onclick="model()">
+    Launch demo modal
+</button>
 
+  <!-- Modal -->
+  <div class="modal fade" id="model">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" onclick="closemodel()"></button>
+        </div>
+        <div class="modal-body">
+    <div class="owl-carousel">
+        <div class="mySlides1">
+            <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" style="width:100%" height="600px" />
+            <div class="note">
+            </div>
+        </div>
+        <div class="mySlides1">
+            <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" style="width:100%" height="600px" />
+            <div class="note">
+            </div>
+        </div>
+        <div class="mySlides1">
+            <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" style="width:100%" height="600px" />
+            <div class="note">
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="{{url('js/owl.carousel.js')}}"></script>
+    <script type="text/javascript" src="{{url('js/storelocator.js')}}"></script>
+    {{-- <script src="jquery.min.js"></script> --}}
+    <script>
+
+    </script>
     <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
 
 <script>
@@ -227,7 +273,6 @@
     new google.translate.TranslateElement("google_element");
   }
 </script>
-
 </body>
 
 </html>

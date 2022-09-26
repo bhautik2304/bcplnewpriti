@@ -146,13 +146,13 @@ nav ul .centermenu img {
     background-color: #000;
 }
 
-.modal-dialog {
+.language-modal .modal-dialog {
     /* position: fixed ; */
     top:65px !important;
     /* margin-right: 0 !important; */
   }
-  
-  
+
+
 .goog-te-combo {
     font-family: arial;
     font-size: 15pt !important;
@@ -173,8 +173,8 @@ nav ul .centermenu img {
 }
 
 @media (min-width: 576px){
-    
-    .modal-dialog {
+
+    .language-modal .modal-dialog {
     max-width: 250px !important;
     /* margin: 4.75rem auto !important; */
     margin-right: 20px !important;
@@ -327,7 +327,7 @@ nav ul .centermenu img {
         width: 100vw;
         height: 100vh;
         background-color: #000;
-    } 
+    }
 
 }
 
@@ -2850,7 +2850,7 @@ input[type=checkbox] {
    animation: bounce 2.5s infinite;
   -webkit-animation: bounce 2.5s infinite;
   -moz-animation: bounce 2.5s infinite;
-  -o-animation: bounce 2.5s infinite; 
+  -o-animation: bounce 2.5s infinite;
 }
 
 .dot-3  img{
@@ -2861,7 +2861,7 @@ input[type=checkbox] {
 }
 
 .dot-2  img{
-   
+
  animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   -moz-animation: bounce 2s infinite;
@@ -2877,7 +2877,7 @@ input[type=checkbox] {
 
 
 .dot-5  img{
-   
+
  animation: bounce 3s infinite;
   -webkit-animation: bounce 3s infinite;
   -moz-animation: bounce 3s infinite;
@@ -2899,7 +2899,7 @@ input[type=checkbox] {
 }
 
 /* .dot-7  img{
-   
+
 
 } */
 
@@ -2907,7 +2907,7 @@ input[type=checkbox] {
        animation: bounce 2.5s infinite;
   -webkit-animation: bounce 2.5s infinite;
   -moz-animation: bounce 2.5s infinite;
-  -o-animation: bounce 2.5s infinite; 
+  -o-animation: bounce 2.5s infinite;
 }
 
 .dot-9  img{
@@ -2919,7 +2919,7 @@ input[type=checkbox] {
 }
 
 .dot-10 img {
-   
+
  animation: bounce 3.5s infinite;
   -webkit-animation: bounce 3.5s infinite;
   -moz-animation: bounce 3.5s infinite;
@@ -2961,7 +2961,7 @@ input[type=checkbox] {
   -webkit-animation: bounce 3.5s infinite;
   -moz-animation: bounce 3.5s infinite;
   -o-animation: bounce 3.5s infinite;
-   
+
 }
 
 .dot-24 img {
@@ -2981,7 +2981,7 @@ input[type=checkbox] {
 }
 
 .dot-14 img {
-   
+
  animation: bounce 4.5s infinite;
   -webkit-animation: bounce 4.5s infinite;
   -moz-animation: bounce 4.5s infinite;
@@ -2997,7 +2997,7 @@ input[type=checkbox] {
 }
 
 .dot-16 img {
-   
+
  animation: bounce 2.5s infinite;
   -webkit-animation: bounce 2.5s infinite;
   -moz-animation: bounce 2.5s infinite;
@@ -3005,7 +3005,7 @@ input[type=checkbox] {
 }
 
 .dot-17 img {
-   
+
  animation: bounce 3s infinite;
   -webkit-animation: bounce 3s infinite;
   -moz-animation: bounce 3s infinite;
@@ -3013,7 +3013,7 @@ input[type=checkbox] {
 }
 
 .dot-18 img {
-   
+
  animation: bounce 3.5s infinite;
   -webkit-animation: bounce 3.5s infinite;
   -moz-animation: bounce 3.5s infinite;
@@ -3103,8 +3103,8 @@ input[type=checkbox] {
     /* .dot-7 {
         top: 38%;
         left: 35%;
-    
-    
+
+
     } */
 
     .dot-8 {
@@ -3253,4 +3253,4 @@ a.feed-powered-by-es.feed-powered-by-es-feed-new {
    }
   .goog-te-gadget{
   color:transparent!important;
-  } 
+  }

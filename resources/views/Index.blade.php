@@ -97,18 +97,20 @@
     <img src="/pictures/internet.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width:25px" >
 
 <!-- Modal -->
-<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
+<div class="language-modal">
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
 
-      <div class="modal-body">
-      <div class="google-class" id="google_element"></div>
-      </div>
+        <div class="modal-body">
+        <div class="google-class" id="google_element"></div>
+        </div>
 
+        </div>
     </div>
-  </div>
+    </div>
 </div>
-
+                            </div>
 
 
                             </div>
@@ -128,7 +130,7 @@
                                     aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                               
+
 </div>
 
                                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -174,7 +176,7 @@
     font-size: 30px;
     font-family: montserrat, sans-serif !important;">A LEADING DISTRIBUTOR OF GLOBAL BRANDS</p>
             <div class="owl-carousel owl-theme slidercard2 pb-2">
-                
+
                     <div class="item ">
                         <img src="/pictures/index-logo/AcquaDiParma.jpg" alt="">
                     </div>
@@ -257,7 +259,7 @@
                     <div class="item ">
                         <img src="/pictures/index-logo/VERSO.jpg" alt="">
                     </div>
-                
+
 
             </div>
         </div>

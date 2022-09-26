@@ -11,11 +11,16 @@ class storeaddress extends Model
 
     public function scopeStore($query,$store)
 {
-    return $query->where('store_id', '=', $store);
+    return $query->where('store_id', '=', $store)->with('storeImages');
 }
 
 public function scopeCity($query,$city)
 {
     return $query->where('city_id', '=', $city);
 }
+
+public function storeImages()
+    {
+        return $this->hasMany(storeimage::class,'storeadress_id');
+    }
 }
